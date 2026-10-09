@@ -1,0 +1,32 @@
+[
+  {
+    "destination": "tools/support/case_capture.py",
+    "reference_sha256": "ef13c3d49a9463769ff706910c42b70f82f59a67cca0686e14bad617bee033ac",
+    "packaged_sha256": "ef13c3d49a9463769ff706910c42b70f82f59a67cca0686e14bad617bee033ac",
+    "change": "None; exact retained helper/manifest bytes"
+  },
+  {
+    "destination": "tools/verify_fp_receipt.py",
+    "reference_sha256": "3136046903979e7756cfe41580f7e67229d8251c6d26e7879a20622ee2e1f278",
+    "packaged_sha256": "9ed85b3a591110b10cc887eddcb6184323afa32d7b181a1b1ef68e49ff86a63d",
+    "change": "Offline parser accepts complete END evidence with nonzero native return without claiming success; rejects Python optimization; receipt hash read is closed. Scientific helper and model remain unchanged."
+  },
+  {
+    "destination": "cases/degray.json",
+    "reference_sha256": "1b5e383911e2b7b9a1b4e2c923bd433edc4779a4ee60458fde94f4e04a394342",
+    "packaged_sha256": "1b5e383911e2b7b9a1b4e2c923bd433edc4779a4ee60458fde94f4e04a394342",
+    "change": "None; exact retained helper/manifest bytes"
+  },
+  {
+    "destination": "cases/detroit.json",
+    "reference_sha256": "76b64723c6d0ed5d9ab80e429caa689607224b9ea3e26d23e37b58b00d5ff113",
+    "packaged_sha256": "76b64723c6d0ed5d9ab80e429caa689607224b9ea3e26d23e37b58b00d5ff113",
+    "change": "None; exact retained helper/manifest bytes"
+  },
+  {
+    "destination": "cases/spokane.json",
+    "reference_sha256": "28caecfe16ab6b35b04ca8de7f5951e256e24bf2eeec1918fc0c61f045038760",
+    "packaged_sha256": "28caecfe16ab6b35b04ca8de7f5951e256e24bf2eeec1918fc0c61f045038760",
+    "change": "None; exact retained helper/manifest bytes"
+  }
+]

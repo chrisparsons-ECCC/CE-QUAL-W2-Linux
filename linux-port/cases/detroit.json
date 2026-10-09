@@ -1,0 +1,599 @@
+{
+  "schema": 1,
+  "case_id": "detroit",
+  "release_example_directory": "Detroit Reservoir",
+  "provenance": "User-approved uploaded 4.5.5 bundle; complete archive SHA-256 fef68d3cd4dc4160b7fcc910b04aa8fc07c8ab511d84e8305b12e51ae4e9058a",
+  "input_policy": "Explicit reviewed original input allowlist including optional supplied forcing inputs; no values, dates, switches or path text edited. Nested InputFiles tree retained. No filename aliases required by observed supplied filenames.",
+  "configured_start_jday": "1",
+  "configured_end_jday": "365",
+  "year": 2002,
+  "grid": {
+    "NWB": 1,
+    "NBR": 4,
+    "IMX": 31,
+    "KMX": 117
+  },
+  "inputs": [
+    {
+      "source": "InputFiles/2002_Blowout_Q.npt",
+      "staged": "InputFiles/2002_Blowout_Q.npt",
+      "bytes": 313678,
+      "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+    },
+    {
+      "source": "InputFiles/2002_Blowout_T.npt",
+      "staged": "InputFiles/2002_Blowout_T.npt",
+      "bytes": 318823,
+      "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+    },
+    {
+      "source": "InputFiles/2002_Blowout_wq.npt",
+      "staged": "InputFiles/2002_Blowout_wq.npt",
+      "bytes": 594819,
+      "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_Q_est.npt",
+      "staged": "InputFiles/2002_BoxCan_Q_est.npt",
+      "bytes": 313739,
+      "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_T_est.npt",
+      "staged": "InputFiles/2002_BoxCan_T_est.npt",
+      "bytes": 466303,
+      "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_estBBr_wq.npt",
+      "staged": "InputFiles/2002_BoxCan_estBBr_wq.npt",
+      "bytes": 594858,
+      "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_Q.npt",
+      "staged": "InputFiles/2002_BreiBu_Q.npt",
+      "bytes": 311497,
+      "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_T.npt",
+      "staged": "InputFiles/2002_BreiBu_T.npt",
+      "bytes": 319215,
+      "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_wq.npt",
+      "staged": "InputFiles/2002_BreiBu_wq.npt",
+      "bytes": 595027,
+      "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+    },
+    {
+      "source": "InputFiles/2002_French_Q.npt",
+      "staged": "InputFiles/2002_French_Q.npt",
+      "bytes": 298455,
+      "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+    },
+    {
+      "source": "InputFiles/2002_French_T.npt",
+      "staged": "InputFiles/2002_French_T.npt",
+      "bytes": 466339,
+      "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+    },
+    {
+      "source": "InputFiles/2002_French_wq.npt",
+      "staged": "InputFiles/2002_French_wq.npt",
+      "bytes": 595674,
+      "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_Q_est.npt",
+      "staged": "InputFiles/2002_Kinney_Q_est.npt",
+      "bytes": 313735,
+      "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_T_est.npt",
+      "staged": "InputFiles/2002_Kinney_T_est.npt",
+      "bytes": 466299,
+      "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_estBBr_wq.npt",
+      "staged": "InputFiles/2002_Kinney_estBBr_wq.npt",
+      "bytes": 594859,
+      "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+    },
+    {
+      "source": "InputFiles/2002_NSant_Q.npt",
+      "staged": "InputFiles/2002_NSant_Q.npt",
+      "bytes": 315342,
+      "sha256": "674d4c7c1a3e54e590ebe5d834e667407869cd62a412a330e69c71f13ab88470"
+    },
+    {
+      "source": "InputFiles/2002_NSant_Q_corr.npt",
+      "staged": "InputFiles/2002_NSant_Q_corr.npt",
+      "bytes": 1156201,
+      "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+    },
+    {
+      "source": "InputFiles/2002_NSant_T.npt",
+      "staged": "InputFiles/2002_NSant_T.npt",
+      "bytes": 318432,
+      "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+    },
+    {
+      "source": "InputFiles/2002_NSant_wq.npt",
+      "staged": "InputFiles/2002_NSant_wq.npt",
+      "bytes": 595376,
+      "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+    },
+    {
+      "source": "InputFiles/2002_detroit_met.npt",
+      "staged": "InputFiles/2002_detroit_met.npt",
+      "bytes": 505778,
+      "sha256": "5428631c7a193f716f08fb2ad1ba453f5bd7434d85b39311b1481b39a4972dd0"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit.npt",
+      "staged": "InputFiles/2002_pre_detroit.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit2.npt",
+      "staged": "InputFiles/2002_pre_detroit2.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit3.npt",
+      "staged": "InputFiles/2002_pre_detroit3.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit4.npt",
+      "staged": "InputFiles/2002_pre_detroit4.npt",
+      "bytes": 6683,
+      "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br1.npt",
+      "staged": "InputFiles/2002_qdt_br1.npt",
+      "bytes": 675,
+      "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br2.npt",
+      "staged": "InputFiles/2002_qdt_br2.npt",
+      "bytes": 675,
+      "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br3.npt",
+      "staged": "InputFiles/2002_qdt_br3.npt",
+      "bytes": 675,
+      "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br4.npt",
+      "staged": "InputFiles/2002_qdt_br4.npt",
+      "bytes": 675,
+      "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq1.npt",
+      "staged": "InputFiles/2002_qdt_wq1.npt",
+      "bytes": 595397,
+      "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq2.npt",
+      "staged": "InputFiles/2002_qdt_wq2.npt",
+      "bytes": 595055,
+      "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq3.npt",
+      "staged": "InputFiles/2002_qdt_wq3.npt",
+      "bytes": 594847,
+      "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq4BBr.npt",
+      "staged": "InputFiles/2002_qdt_wq4BBr.npt",
+      "bytes": 594899,
+      "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+    },
+    {
+      "source": "InputFiles/2002_qwd.npt",
+      "staged": "InputFiles/2002_qwd.npt",
+      "bytes": 227801,
+      "sha256": "3b601d043a3e6bd366a522629ec9b294ccf625289997fb76fb2765ebccd00e3d"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br1.npt",
+      "staged": "InputFiles/2002_tdt_br1.npt",
+      "bytes": 318439,
+      "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br2.npt",
+      "staged": "InputFiles/2002_tdt_br2.npt",
+      "bytes": 319231,
+      "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br3.npt",
+      "staged": "InputFiles/2002_tdt_br3.npt",
+      "bytes": 318849,
+      "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br4F.npt",
+      "staged": "InputFiles/2002_tdt_br4F.npt",
+      "bytes": 466268,
+      "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit.npt",
+      "staged": "InputFiles/2002_tpr_detroit.npt",
+      "bytes": 6696,
+      "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit2.npt",
+      "staged": "InputFiles/2002_tpr_detroit2.npt",
+      "bytes": 6694,
+      "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit3.npt",
+      "staged": "InputFiles/2002_tpr_detroit3.npt",
+      "bytes": 6694,
+      "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit4.npt",
+      "staged": "InputFiles/2002_tpr_detroit4.npt",
+      "bytes": 6693,
+      "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+    },
+    {
+      "source": "InputFiles/bth1.csv",
+      "staged": "InputFiles/bth1.csv",
+      "bytes": 18324,
+      "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+    },
+    {
+      "source": "InputFiles/metDetroit2002.csv",
+      "staged": "InputFiles/metDetroit2002.csv",
+      "bytes": 297114,
+      "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+    },
+    {
+      "source": "InputFiles/q3.npt",
+      "staged": "InputFiles/q3.npt",
+      "bytes": 505619,
+      "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+    },
+    {
+      "source": "InputFiles/qwd_dss.npt",
+      "staged": "InputFiles/qwd_dss.npt",
+      "bytes": 227231,
+      "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+    },
+    {
+      "source": "InputFiles/shade.npt",
+      "staged": "InputFiles/shade.npt",
+      "bytes": 7545,
+      "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+    },
+    {
+      "source": "InputFiles/wsc.npt",
+      "staged": "InputFiles/wsc.npt",
+      "bytes": 703,
+      "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+    },
+    {
+      "source": "w2_con.csv",
+      "staged": "w2_con.csv",
+      "bytes": 395805,
+      "sha256": "6d6240c0a476a94e3d5d5aa2f8370ee541dd7959fe201dce44658bea85800e41"
+    },
+    {
+      "source": "w2_envirprf.npt",
+      "staged": "w2_envirprf.npt",
+      "bytes": 2235,
+      "sha256": "60dd938c9cc8e67b9f7f1fee7407f58b0b25ad4e905430a03d8615060823f2ff"
+    },
+    {
+      "source": "w2_habitat.npt",
+      "staged": "w2_habitat.npt",
+      "bytes": 982,
+      "sha256": "82f51037013be59b357d67518d120c4b00402041ff7786dfe3885a7a303a7d65"
+    }
+  ],
+  "parsed_outputs": {
+    "tsr_1_seg9.csv": "tsr",
+    "tsr_2_seg10.csv": "tsr",
+    "tsr_3_seg11.csv": "tsr",
+    "tsr_4_seg11.csv": "tsr",
+    "flowbal.csv": "flowbal"
+  },
+  "coverage_notes": [
+    "Control line 395 sets CCC ON; constituent rows 402-405 activate TDS, Gen1 (water age), ISS1 and ISS2. This supplied case includes constituent transport, not pure thermal-only operation. HEATC at line 82 is ON. Line 25 sets habitat/environmental performance ON and selective withdrawal/aeration/sediment diagenesis OFF.",
+    "Control lines 355-363 configure TSR with four locations (segment 11 repeated), start day 1 and interval 0.1 day. DLT is output-sampled, not every internal timestep.",
+    "FLOWBAL ON with configured FLOWBALF=14; actual balance timestamps must be read from generated output rather than inferred from this value. NPBAL and WLEVEL OFF.",
+    "Nested .\\InputFiles\\ paths remain byte-identical in controls and need native Linux filename handling before full execution.",
+    "Parser coverage is restricted to source-verified TSR and FLOWBAL, not profiles, habitat or environmental performance files.",
+    "Original xlsm workbook is excluded; no precomputed solver outputs are present in this example tree."
+  ],
+  "linux_literal_path_aliases": [
+    {
+      "source": "InputFiles/2002_French_Q.npt",
+      "staged": ".\\InputFiles\\2002_French_Q.npt",
+      "bytes": 298455,
+      "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_Q_est.npt",
+      "staged": ".\\InputFiles\\2002_BoxCan_Q_est.npt",
+      "bytes": 313739,
+      "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+    },
+    {
+      "source": "InputFiles/2002_French_T.npt",
+      "staged": ".\\InputFiles\\2002_French_T.npt",
+      "bytes": 466339,
+      "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_T_est.npt",
+      "staged": ".\\InputFiles\\2002_BoxCan_T_est.npt",
+      "bytes": 466303,
+      "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+    },
+    {
+      "source": "InputFiles/2002_French_wq.npt",
+      "staged": ".\\InputFiles\\2002_French_wq.npt",
+      "bytes": 595674,
+      "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+    },
+    {
+      "source": "InputFiles/2002_BoxCan_estBBr_wq.npt",
+      "staged": ".\\InputFiles\\2002_BoxCan_estBBr_wq.npt",
+      "bytes": 594858,
+      "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+    },
+    {
+      "source": "InputFiles/qwd_dss.npt",
+      "staged": ".\\InputFiles\\qwd_dss.npt",
+      "bytes": 227231,
+      "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+    },
+    {
+      "source": "InputFiles/wsc.npt",
+      "staged": ".\\InputFiles\\wsc.npt",
+      "bytes": 703,
+      "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+    },
+    {
+      "source": "InputFiles/shade.npt",
+      "staged": ".\\InputFiles\\shade.npt",
+      "bytes": 7545,
+      "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+    },
+    {
+      "source": "InputFiles/bth1.csv",
+      "staged": ".\\InputFiles\\bth1.csv",
+      "bytes": 18324,
+      "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+    },
+    {
+      "source": "InputFiles/metDetroit2002.csv",
+      "staged": ".\\InputFiles\\metDetroit2002.csv",
+      "bytes": 297114,
+      "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+    },
+    {
+      "source": "InputFiles/2002_NSant_Q_corr.npt",
+      "staged": ".\\InputFiles\\2002_NSant_Q_corr.npt",
+      "bytes": 1156201,
+      "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_Q.npt",
+      "staged": ".\\InputFiles\\2002_BreiBu_Q.npt",
+      "bytes": 311497,
+      "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+    },
+    {
+      "source": "InputFiles/2002_Blowout_Q.npt",
+      "staged": ".\\InputFiles\\2002_Blowout_Q.npt",
+      "bytes": 313678,
+      "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_Q_est.npt",
+      "staged": ".\\InputFiles\\2002_Kinney_Q_est.npt",
+      "bytes": 313735,
+      "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+    },
+    {
+      "source": "InputFiles/2002_NSant_T.npt",
+      "staged": ".\\InputFiles\\2002_NSant_T.npt",
+      "bytes": 318432,
+      "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_T.npt",
+      "staged": ".\\InputFiles\\2002_BreiBu_T.npt",
+      "bytes": 319215,
+      "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+    },
+    {
+      "source": "InputFiles/2002_Blowout_T.npt",
+      "staged": ".\\InputFiles\\2002_Blowout_T.npt",
+      "bytes": 318823,
+      "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_T_est.npt",
+      "staged": ".\\InputFiles\\2002_Kinney_T_est.npt",
+      "bytes": 466299,
+      "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+    },
+    {
+      "source": "InputFiles/2002_NSant_wq.npt",
+      "staged": ".\\InputFiles\\2002_NSant_wq.npt",
+      "bytes": 595376,
+      "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+    },
+    {
+      "source": "InputFiles/2002_BreiBu_wq.npt",
+      "staged": ".\\InputFiles\\2002_BreiBu_wq.npt",
+      "bytes": 595027,
+      "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+    },
+    {
+      "source": "InputFiles/2002_Blowout_wq.npt",
+      "staged": ".\\InputFiles\\2002_Blowout_wq.npt",
+      "bytes": 594819,
+      "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+    },
+    {
+      "source": "InputFiles/2002_Kinney_estBBr_wq.npt",
+      "staged": ".\\InputFiles\\2002_Kinney_estBBr_wq.npt",
+      "bytes": 594859,
+      "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+    },
+    {
+      "source": "InputFiles/q3.npt",
+      "staged": ".\\InputFiles\\q3.npt",
+      "bytes": 505619,
+      "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br1.npt",
+      "staged": ".\\InputFiles\\2002_qdt_br1.npt",
+      "bytes": 675,
+      "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br2.npt",
+      "staged": ".\\InputFiles\\2002_qdt_br2.npt",
+      "bytes": 675,
+      "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br3.npt",
+      "staged": ".\\InputFiles\\2002_qdt_br3.npt",
+      "bytes": 675,
+      "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+    },
+    {
+      "source": "InputFiles/2002_qdt_br4.npt",
+      "staged": ".\\InputFiles\\2002_qdt_br4.npt",
+      "bytes": 675,
+      "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br1.npt",
+      "staged": ".\\InputFiles\\2002_tdt_br1.npt",
+      "bytes": 318439,
+      "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br2.npt",
+      "staged": ".\\InputFiles\\2002_tdt_br2.npt",
+      "bytes": 319231,
+      "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br3.npt",
+      "staged": ".\\InputFiles\\2002_tdt_br3.npt",
+      "bytes": 318849,
+      "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+    },
+    {
+      "source": "InputFiles/2002_tdt_br4F.npt",
+      "staged": ".\\InputFiles\\2002_tdt_br4F.npt",
+      "bytes": 466268,
+      "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq1.npt",
+      "staged": ".\\InputFiles\\2002_qdt_wq1.npt",
+      "bytes": 595397,
+      "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq2.npt",
+      "staged": ".\\InputFiles\\2002_qdt_wq2.npt",
+      "bytes": 595055,
+      "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq3.npt",
+      "staged": ".\\InputFiles\\2002_qdt_wq3.npt",
+      "bytes": 594847,
+      "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+    },
+    {
+      "source": "InputFiles/2002_qdt_wq4BBr.npt",
+      "staged": ".\\InputFiles\\2002_qdt_wq4BBr.npt",
+      "bytes": 594899,
+      "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit.npt",
+      "staged": ".\\InputFiles\\2002_pre_detroit.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit2.npt",
+      "staged": ".\\InputFiles\\2002_pre_detroit2.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit3.npt",
+      "staged": ".\\InputFiles\\2002_pre_detroit3.npt",
+      "bytes": 6681,
+      "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+    },
+    {
+      "source": "InputFiles/2002_pre_detroit4.npt",
+      "staged": ".\\InputFiles\\2002_pre_detroit4.npt",
+      "bytes": 6683,
+      "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit.npt",
+      "staged": ".\\InputFiles\\2002_tpr_detroit.npt",
+      "bytes": 6696,
+      "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit2.npt",
+      "staged": ".\\InputFiles\\2002_tpr_detroit2.npt",
+      "bytes": 6694,
+      "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit3.npt",
+      "staged": ".\\InputFiles\\2002_tpr_detroit3.npt",
+      "bytes": 6694,
+      "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+    },
+    {
+      "source": "InputFiles/2002_tpr_detroit4.npt",
+      "staged": ".\\InputFiles\\2002_tpr_detroit4.npt",
+      "bytes": 6693,
+      "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+    }
+  ]
+}

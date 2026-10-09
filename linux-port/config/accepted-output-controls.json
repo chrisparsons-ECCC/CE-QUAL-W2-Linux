@@ -1,0 +1,4230 @@
+{
+  "format": "cequal-pinned-output-controls-v1",
+  "normalization": "Only source-audited run clock, termination clock, CPU duration, compile timestamp, and72-byte W2L TITLE(11) offset724. No line-ending, sentinel or numerical tolerance.",
+  "profiles": {
+    "strict": {
+      "degray": {
+        "evidence": {
+          "capture_sha256": "de9c943a5aaab5ab40f4b435e293225a0d57e6c7eb74170448333516c45930b8",
+          "description": "Original strict Linux port control / degray",
+          "reference_executable_sha256": "e4391c3af9832fe3f4b26b89ae855bea6fd53d72667d7b367894bc886ca7d79f"
+        },
+        "exit_code": 0,
+        "inputs": {
+          "W2_AERATE.NPT": {
+            "bytes": 351,
+            "sha256": "fadc12033d047bf29c86e15017d755c37ce5dab785a25c3f953086112e585a40"
+          },
+          "W2_diagenesis.npt": {
+            "bytes": 9008,
+            "sha256": "fef93bd43a9b7edd93f0e201788e34f07c66460e23836fcfb7a3e477824a57aa"
+          },
+          "atm_deposition_wb1.csv": {
+            "bytes": 198,
+            "sha256": "1229cb65429297db2e359b4eee71a7065a690ecbb3842d156fbc1b32c2c50bae"
+          },
+          "bth1.csv": {
+            "bytes": 14792,
+            "sha256": "0eb99112007ecb44014ff17da1738c9e50e5853e9b1a24f291f88673615d6a15"
+          },
+          "cin_br1.csv": {
+            "bytes": 3362,
+            "sha256": "f476d1f511275b04a85c08d9a4ce35a1a4d4d8dccd8fdd9fff3979e80bb95824"
+          },
+          "dynpump1.npt": {
+            "bytes": 281,
+            "sha256": "75177486064d4a1094fd03d6763dee4605c43c066e78484321f5642077b8ae0a"
+          },
+          "dynselective1.npt": {
+            "bytes": 196,
+            "sha256": "723ebecf1dcd51ff70d46c57bf950d576bdc7d3c2237f08cab7f7bd59c2cc18a"
+          },
+          "met.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "met2.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "met3.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "prf_dam.npt": {
+            "bytes": 119211,
+            "sha256": "6c637170683d49ff07c82fd509780dbbed76c9b73381e4148544eaa675f85491"
+          },
+          "qgt.npt": {
+            "bytes": 48,
+            "sha256": "027e078d2fa4889e5d7c5520645fc60eb095fcbf0fe4ad5bb4db1ea594ccb4df"
+          },
+          "qin_br1.npt": {
+            "bytes": 5831,
+            "sha256": "090bdef558df24475986f4131c0d8be18bb05921b08562025883400bc5102d04"
+          },
+          "qin_br1_equal.npt": {
+            "bytes": 143,
+            "sha256": "d9e81706c488fa822a1dbac245297fde5077607b566714ad8004f5585bab197f"
+          },
+          "qot_br1.npt": {
+            "bytes": 6677,
+            "sha256": "55606ec4d08d8fbbc4e13f8f44cda04b104badfb0db9dc95f5c1ecfdf40b3017"
+          },
+          "qot_br1_equal.npt": {
+            "bytes": 143,
+            "sha256": "b072b4aaef3872fa6e35e957a023840d11ec292c69a4f80ec0e7b0be54e2a521"
+          },
+          "shade.npt": {
+            "bytes": 934,
+            "sha256": "3305585f22362bd730c50b5077127b49cc31e16b983180f106c67ab29edfbdf7"
+          },
+          "tin_br1.npt": {
+            "bytes": 6677,
+            "sha256": "d0573c5afd828fdaee13acb57d07fe4475427a609a2533eb6c4881a09b613ccd"
+          },
+          "vpr.npt": {
+            "bytes": 1131,
+            "sha256": "965c6da6330301c50af339f461d2ebbb647de1332f7b46e7fd1fdff4244bcc20"
+          },
+          "w2_AlgaeMigration.csv": {
+            "bytes": 6385,
+            "sha256": "2acbbaa602850ae7047bd7828a3b624ec0c89b4395323b541623a3ebcc7f0465"
+          },
+          "w2_Algae_Toxin.csv": {
+            "bytes": 382,
+            "sha256": "6a5dba55dfa81efddb10cdcf0be8c0c933085119c08397489fdeb2a091ac5d1a"
+          },
+          "w2_TDGtarget.csv": {
+            "bytes": 1556,
+            "sha256": "946e61e51f733883a1b39be2fcafc61cbc7e7bccfdb9ce6f800cbf075ffc571b"
+          },
+          "w2_con.csv": {
+            "bytes": 113066,
+            "sha256": "98be682f17eb6140a2df46acb102d48fc064d05239475f116b02cd6d5cad98b4"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2222,
+            "sha256": "831399ca7136b38b13eb5e255e752f24b6efbe40cc2d464030d34172a4128b5d"
+          },
+          "w2_habitat.npt": {
+            "bytes": 968,
+            "sha256": "7a0259da353e391fb59b2a8f70cab6604d73f53dfe43ac3993759b529c966fbf"
+          },
+          "w2_lake_river_contour.csv": {
+            "bytes": 418,
+            "sha256": "0b243b542e8b48b0106496f5fefab12e7e4b17ccf5cf4de2656ff2899407b8bc"
+          },
+          "w2_multiple_WB.npt": {
+            "bytes": 446,
+            "sha256": "241d101cab30f7070c937cc973c8dd0439dada6576c5552e4e0008c176fa1c62"
+          },
+          "w2_selective.npt": {
+            "bytes": 1494,
+            "sha256": "fd5b76386f9384b8e637935c0869a929a6919bb60596f54aa1b5bf9af852de31"
+          },
+          "w2_systdg.npt": {
+            "bytes": 1359,
+            "sha256": "5ada43c1be8209d59c0a85e3674e0a1f7ae95bb62721dbb3f5ca228636531fd4"
+          },
+          "w2_tecplotbr.csv": {
+            "bytes": 213,
+            "sha256": "cc8c5a02762f0c85ddbbf34a22872a5700cb873f3902b67dbf4ce659bf4ffb9a"
+          },
+          "wsc.npt": {
+            "bytes": 705,
+            "sha256": "b7fef70bbc9058aa93cd0f73df8bb833f77396a0dd3f6f702863b8d71a800dd3"
+          }
+        },
+        "outputs": {
+          "DiagenesisLogFile.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "raw": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          },
+          "LakeContour_DO_Seg31 .csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 256690,
+              "sha256": "c38d67fe324156a96ae284f7049241f86887ce52f8a8cfafabb36268747be625"
+            },
+            "raw": {
+              "bytes": 256690,
+              "sha256": "c38d67fe324156a96ae284f7049241f86887ce52f8a8cfafabb36268747be625"
+            }
+          },
+          "LakeContour_T_Seg31 .csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 256684,
+              "sha256": "faab13833b0743b963b151df615047081d365cd2389226f75a2b49ec2a1f4e1a"
+            },
+            "raw": {
+              "bytes": 256684,
+              "sha256": "faab13833b0743b963b151df615047081d365cd2389226f75a2b49ec2a1f4e1a"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 109947,
+              "sha256": "16e4d9e206accee82f877c018c63f8fb6873968bfebdc8eddc66215ebc605d63"
+            },
+            "raw": {
+              "bytes": 109947,
+              "sha256": "16e4d9e206accee82f877c018c63f8fb6873968bfebdc8eddc66215ebc605d63"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CH4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119092,
+              "sha256": "76b1713d07c8c5e41f128b644f51ca987bc8fce5d6e5496a0340f8a093c86c57"
+            },
+            "raw": {
+              "bytes": 119092,
+              "sha256": "76b1713d07c8c5e41f128b644f51ca987bc8fce5d6e5496a0340f8a093c86c57"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CH4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119682,
+              "sha256": "0dfc04c52314ee52d4070ce1434dca40169ad4c94e6751933b1d4bc5f831ccf5"
+            },
+            "raw": {
+              "bytes": 119682,
+              "sha256": "0dfc04c52314ee52d4070ce1434dca40169ad4c94e6751933b1d4bc5f831ccf5"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CSOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216961,
+              "sha256": "f1ffec83002bded4bb1b0b2918e129546d5e07f6cb83be5b309d17a5d3603780"
+            },
+            "raw": {
+              "bytes": 216961,
+              "sha256": "f1ffec83002bded4bb1b0b2918e129546d5e07f6cb83be5b309d17a5d3603780"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_FeIIAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "f83d7e6c1f16c042e4827de732d4999ffe4996028484b3a95388b2b70853181f"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "f83d7e6c1f16c042e4827de732d4999ffe4996028484b3a95388b2b70853181f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_FeIIAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119977,
+              "sha256": "4077d4ec1ab554affe7fbbb20ff94f37458521beb5b3dcf92c135e7383803284"
+            },
+            "raw": {
+              "bytes": 119977,
+              "sha256": "4077d4ec1ab554affe7fbbb20ff94f37458521beb5b3dcf92c135e7383803284"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JC.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253836,
+              "sha256": "701a8ca2909007299142549ef1528e8a1dee0693f5fe78312dbf91d53de75654"
+            },
+            "raw": {
+              "bytes": 253836,
+              "sha256": "701a8ca2909007299142549ef1528e8a1dee0693f5fe78312dbf91d53de75654"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JN.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253836,
+              "sha256": "ee929acc3e7956434a57f2d60dcfb899df92739b3f1698d7dad8a5c01554d856"
+            },
+            "raw": {
+              "bytes": 253836,
+              "sha256": "ee929acc3e7956434a57f2d60dcfb899df92739b3f1698d7dad8a5c01554d856"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JP.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216076,
+              "sha256": "64e7a8c2e7ac56cc78baaf27d7987e500fc9e6a469717904607901d9c641a10b"
+            },
+            "raw": {
+              "bytes": 216076,
+              "sha256": "64e7a8c2e7ac56cc78baaf27d7987e500fc9e6a469717904607901d9c641a10b"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_MnIIAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "6bb8814b61863583c3ee9cf670d2850a8c38d1bf086a54ec4dd009eea4fe6a84"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "6bb8814b61863583c3ee9cf670d2850a8c38d1bf086a54ec4dd009eea4fe6a84"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_MnIIAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119977,
+              "sha256": "a7cc89ce77e68bb18f9020f3c1f0da49eb4c08af0173de27c19aa168d32b6c6a"
+            },
+            "raw": {
+              "bytes": 119977,
+              "sha256": "a7cc89ce77e68bb18f9020f3c1f0da49eb4c08af0173de27c19aa168d32b6c6a"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NH3AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "ca84b508b27036cd4bb50b4a66c7746f0640c8590c88b4f835d3993da2c1d7c7"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "ca84b508b27036cd4bb50b4a66c7746f0640c8590c88b4f835d3993da2c1d7c7"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NH3AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "1078d7f78c280f8d5fd75cbb0c10efdab7d4adcddd80947bfc2298bcb2cd1f18"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "1078d7f78c280f8d5fd75cbb0c10efdab7d4adcddd80947bfc2298bcb2cd1f18"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NO3AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "ca3e7e2e6cb9495f0de670107bea03497f839560bf349baff48dc3d4529cbe1c"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "ca3e7e2e6cb9495f0de670107bea03497f839560bf349baff48dc3d4529cbe1c"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NO3AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "ad3ed0ee07546e415799f8554008cf6185f5b7893f7036d7b5a371d0159d9629"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "ad3ed0ee07546e415799f8554008cf6185f5b7893f7036d7b5a371d0159d9629"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NSOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216961,
+              "sha256": "b0d464075fae84cbf5f176dc1a6aca8e9a6bc9ad8082e9be86842d25ac1fa8ef"
+            },
+            "raw": {
+              "bytes": 216961,
+              "sha256": "b0d464075fae84cbf5f176dc1a6aca8e9a6bc9ad8082e9be86842d25ac1fa8ef"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PO4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "67e04057972c91dfeb530c4c5259ef2d43230b8dfe90ffe5bae9b8706f00f789"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "67e04057972c91dfeb530c4c5259ef2d43230b8dfe90ffe5bae9b8706f00f789"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PO4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "168acc7e4bb77cdeca77ba6f8093950e9f64502e61ac7dcdde32abae4cf89aa7"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "168acc7e4bb77cdeca77ba6f8093950e9f64502e61ac7dcdde32abae4cf89aa7"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POCG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "70f16ad147eeb0910ddd590f940605565bcef6779fc0821085eeec5606f23d36"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "70f16ad147eeb0910ddd590f940605565bcef6779fc0821085eeec5606f23d36"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POCG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "0bc06d54e1efd5eab7d56aaea3057f3a620dd1428e3ec75c3e2bea18edb802d8"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "0bc06d54e1efd5eab7d56aaea3057f3a620dd1428e3ec75c3e2bea18edb802d8"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PONG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "1e17188e70d18a4f2e02f5592c27584b88184960bbbedc38ffa45fc9c78ca87f"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "1e17188e70d18a4f2e02f5592c27584b88184960bbbedc38ffa45fc9c78ca87f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PONG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "734b60cf78e3b4b35c80981ba987a221b84d6a2d8c9b97176f23f1f319af1b83"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "734b60cf78e3b4b35c80981ba987a221b84d6a2d8c9b97176f23f1f319af1b83"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POPG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "e27ad1c7420f6085cad8d6cfb214877afc58abc83115a75652640ab8fede19c5"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "e27ad1c7420f6085cad8d6cfb214877afc58abc83115a75652640ab8fede19c5"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POPG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "2132e786c4fc21aa4ca751396d5903e0d4a8a00dc0848c1a1306c6433f0fc0b8"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "2132e786c4fc21aa4ca751396d5903e0d4a8a00dc0848c1a1306c6433f0fc0b8"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JCH4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254721,
+              "sha256": "fd1264476e1143f2652f2799ac045e1f09b4e58bef8da4899a9a47d32093f792"
+            },
+            "raw": {
+              "bytes": 254721,
+              "sha256": "fd1264476e1143f2652f2799ac045e1f09b4e58bef8da4899a9a47d32093f792"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JNH4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "b8bd2c28f9da26426ab88b10387b01b15aa3402736056cd945a49f8a1b6aee1f"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "b8bd2c28f9da26426ab88b10387b01b15aa3402736056cd945a49f8a1b6aee1f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JNO3.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "eefc56e79c940e34d39255a2b4cca3d3a83bdfef529cb6cdc56a36354154ce42"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "eefc56e79c940e34d39255a2b4cca3d3a83bdfef529cb6cdc56a36354154ce42"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JPO4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "a4b3ef4bdc85cb8fb5a07b426ed581e99b58da002fe7f640c444857417915ec4"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "a4b3ef4bdc85cb8fb5a07b426ed581e99b58da002fe7f640c444857417915ec4"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SO4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "e2419a939645de157fc65b6287b918fc3bda7b0e53401a09328c46f370b62d15"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "e2419a939645de157fc65b6287b918fc3bda7b0e53401a09328c46f370b62d15"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SO4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "d6c78b8dd8f845a9ea60027721e4bb0301bb926a6b6256264927b310d0ee60c6"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "d6c78b8dd8f845a9ea60027721e4bb0301bb926a6b6256264927b310d0ee60c6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216666,
+              "sha256": "0a37cf412495915da39d3929d60695360badccd9d8e5025d356c7bae55450f0e"
+            },
+            "raw": {
+              "bytes": 216666,
+              "sha256": "0a37cf412495915da39d3929d60695360badccd9d8e5025d356c7bae55450f0e"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SulfideAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 120272,
+              "sha256": "ac761c20a099fe902887fbff7b7a0bf47bf9b5975981341d777a9c845294570f"
+            },
+            "raw": {
+              "bytes": 120272,
+              "sha256": "ac761c20a099fe902887fbff7b7a0bf47bf9b5975981341d777a9c845294570f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SulfideAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 120862,
+              "sha256": "9e0e0a7300644336342c6a249d0fe574d589233903f437505b46089566e55df6"
+            },
+            "raw": {
+              "bytes": 120862,
+              "sha256": "9e0e0a7300644336342c6a249d0fe574d589233903f437505b46089566e55df6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TemperatureAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 114962,
+              "sha256": "0fd2290f27b16dd1c8949b73ed34828648983352c734f13db3f813aea3926dc5"
+            },
+            "raw": {
+              "bytes": 114962,
+              "sha256": "0fd2290f27b16dd1c8949b73ed34828648983352c734f13db3f813aea3926dc5"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TemperatureAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 114962,
+              "sha256": "ee55251776ea02751f10bed576eb5fc23aae30487540b24291a2c06292335372"
+            },
+            "raw": {
+              "bytes": 114962,
+              "sha256": "ee55251776ea02751f10bed576eb5fc23aae30487540b24291a2c06292335372"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 121157,
+              "sha256": "5ea3c7995714316e3cc937f3f0c9292d721d01f6fb99b9a5d9ecd073763fbee8"
+            },
+            "raw": {
+              "bytes": 121157,
+              "sha256": "5ea3c7995714316e3cc937f3f0c9292d721d01f6fb99b9a5d9ecd073763fbee8"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity_SD_KL12.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 122927,
+              "sha256": "b2092faf5fdcc81e6dfb234fb04ed4a6dba840b65551bae4da8e0a349210498d"
+            },
+            "raw": {
+              "bytes": 122927,
+              "sha256": "b2092faf5fdcc81e6dfb234fb04ed4a6dba840b65551bae4da8e0a349210498d"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity_SD_W12.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 122632,
+              "sha256": "0897ead6dd8bb241184e5e721c447ce125153c5d4681ab7667abb37f1b96d4aa"
+            },
+            "raw": {
+              "bytes": 122632,
+              "sha256": "0897ead6dd8bb241184e5e721c447ce125153c5d4681ab7667abb37f1b96d4aa"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_pHAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 116142,
+              "sha256": "8a946b3dc29b1638b030b070c3a004208a0e5173434fd3cd136d27cdda6c8c23"
+            },
+            "raw": {
+              "bytes": 116142,
+              "sha256": "8a946b3dc29b1638b030b070c3a004208a0e5173434fd3cd136d27cdda6c8c23"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_pHAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 116732,
+              "sha256": "3e57ba5869878e7f9241413f5b8fda0fa8f7b04ed522fb7601c6c9fe2719025f"
+            },
+            "raw": {
+              "bytes": 116732,
+              "sha256": "3e57ba5869878e7f9241413f5b8fda0fa8f7b04ed522fb7601c6c9fe2719025f"
+            }
+          },
+          "TDG_output.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 30,
+              "sha256": "a781fc5285468e575599db4d7681e9a08ea1da3bc4538cdf65a93d93cc1baa90"
+            },
+            "raw": {
+              "bytes": 30,
+              "sha256": "a781fc5285468e575599db4d7681e9a08ea1da3bc4538cdf65a93d93cc1baa90"
+            }
+          },
+          "VOLUME_WB1.OPT": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 105975,
+              "sha256": "1c04bc7fffe6ab39c3868b69350ffd2a613eab7a6ad72cf2dc2b8959f8c9be40"
+            },
+            "raw": {
+              "bytes": 105975,
+              "sha256": "1c04bc7fffe6ab39c3868b69350ffd2a613eab7a6ad72cf2dc2b8959f8c9be40"
+            }
+          },
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "c215d4592f964ba3c5aa9e68443a80a3a83aaa11d71be848613d2440a7d1f2a2"
+            }
+          },
+          "aeration.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 132599,
+              "sha256": "dff8d7cbbadfa2341549702ef1c9c2ef06506e027057afdd9e6bb6c8f8dd92f4"
+            },
+            "raw": {
+              "bytes": 132599,
+              "sha256": "dff8d7cbbadfa2341549702ef1c9c2ef06506e027057afdd9e6bb6c8f8dd92f4"
+            }
+          },
+          "algae_migration_debug.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 931840210,
+              "sha256": "fd4a5ed3462b43697831bd47855e11e90d12e136d265fca021d00d66426d185a"
+            },
+            "raw": {
+              "bytes": 931840210,
+              "sha256": "fd4a5ed3462b43697831bd47855e11e90d12e136d265fca021d00d66426d185a"
+            }
+          },
+          "algae_toxin_debug.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 562273,
+              "sha256": "c0d54ee48a69f3e2f9587ccaf17bbeb8e8eada9f229d18fa53525b0a18496bdd"
+            },
+            "raw": {
+              "bytes": 562273,
+              "sha256": "c0d54ee48a69f3e2f9587ccaf17bbeb8e8eada9f229d18fa53525b0a18496bdd"
+            }
+          },
+          "c_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 794908,
+              "sha256": "11755d8141677ab62096db09270d99a321d0641e7351199828cf3db72112deb3"
+            },
+            "raw": {
+              "bytes": 794908,
+              "sha256": "11755d8141677ab62096db09270d99a321d0641e7351199828cf3db72112deb3"
+            }
+          },
+          "cpl.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 16803422,
+              "sha256": "e910e32a04a791cbae3ac144d0bf3d674c4a3675a1ae8ce14932b6544417c965"
+            },
+            "raw": {
+              "bytes": 16803422,
+              "sha256": "e910e32a04a791cbae3ac144d0bf3d674c4a3675a1ae8ce14932b6544417c965"
+            }
+          },
+          "cwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 700798,
+              "sha256": "1f707d8b1522caab362f3587ad0593373d98bd2b45db9a88d64afce192cb7ce0"
+            },
+            "raw": {
+              "bytes": 700798,
+              "sha256": "1f707d8b1522caab362f3587ad0593373d98bd2b45db9a88d64afce192cb7ce0"
+            }
+          },
+          "cwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 700798,
+              "sha256": "bcce1bf6f52b91ea79a593fb306eefd456e4b0e2f3094a48cf22ae95d970a905"
+            },
+            "raw": {
+              "bytes": 700798,
+              "sha256": "bcce1bf6f52b91ea79a593fb306eefd456e4b0e2f3094a48cf22ae95d970a905"
+            }
+          },
+          "d_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 370977,
+              "sha256": "07ae732f1d935b773712721b74957a0516d07c04f45da15284d62a9e144745ba"
+            },
+            "raw": {
+              "bytes": 370977,
+              "sha256": "07ae732f1d935b773712721b74957a0516d07c04f45da15284d62a9e144745ba"
+            }
+          },
+          "degray.w2l": {
+            "excluded_counts": {
+              "TITLE(11)": 1
+            },
+            "normalized": {
+              "bytes": 70665007,
+              "sha256": "7b7491877c69ff5fca90626a7e64395ab78539c06cfce2c755a1fa05ab20685a"
+            },
+            "raw": {
+              "bytes": 70665007,
+              "sha256": "d314a85a02cb3efeffeb5d5e11db2378daa13e046b66f4acc79c3121d191f63f"
+            }
+          },
+          "dwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 329836,
+              "sha256": "c15c3df748ff70f4c7b32002375cae77f8cd49fee70a0f0eecbee63dbde974d9"
+            },
+            "raw": {
+              "bytes": 329836,
+              "sha256": "c15c3df748ff70f4c7b32002375cae77f8cd49fee70a0f0eecbee63dbde974d9"
+            }
+          },
+          "dwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 329836,
+              "sha256": "b410c625299155a42bebf024994223582d7a4599d96f50fc1cc41ab8013b5b9d"
+            },
+            "raw": {
+              "bytes": 329836,
+              "sha256": "b410c625299155a42bebf024994223582d7a4599d96f50fc1cc41ab8013b5b9d"
+            }
+          },
+          "envrprf_c1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 3469,
+              "sha256": "bb6c85ed0d1144e7548cb7b6c65a8c1347b7c5d94a2e412ec32747c2413c77d0"
+            },
+            "raw": {
+              "bytes": 3469,
+              "sha256": "bb6c85ed0d1144e7548cb7b6c65a8c1347b7c5d94a2e412ec32747c2413c77d0"
+            }
+          },
+          "envrprf_cd1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1744,
+              "sha256": "c07f573b8b109929622d0a84292b053a5434791ccd1749aa38fceaf3253e1b62"
+            },
+            "raw": {
+              "bytes": 1744,
+              "sha256": "c07f573b8b109929622d0a84292b053a5434791ccd1749aa38fceaf3253e1b62"
+            }
+          },
+          "envrprf_t_1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 523,
+              "sha256": "0e14962bed982e2dce02e7cf7bf42ea628a5f7cf8e96be37664886603fba3cbd"
+            },
+            "raw": {
+              "bytes": 523,
+              "sha256": "0e14962bed982e2dce02e7cf7bf42ea628a5f7cf8e96be37664886603fba3cbd"
+            }
+          },
+          "fish_habitat_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654359,
+              "sha256": "e4f7c6b0634911b1a91a5f1b362e9c57051dcc03b1c4c6161daa73a96871f4f3"
+            },
+            "raw": {
+              "bytes": 654359,
+              "sha256": "e4f7c6b0634911b1a91a5f1b362e9c57051dcc03b1c4c6161daa73a96871f4f3"
+            }
+          },
+          "fish_habitat_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654362,
+              "sha256": "713d2a9f19194fda08486c48e4bef66ff091c4b14b680b8273f24ccd957ad36c"
+            },
+            "raw": {
+              "bytes": 654362,
+              "sha256": "713d2a9f19194fda08486c48e4bef66ff091c4b14b680b8273f24ccd957ad36c"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 9332,
+              "sha256": "a5fc4d0595941736ed0c2fc5fd85fe325d7a96cc9e3ca6c11f4932b85fe29576"
+            },
+            "raw": {
+              "bytes": 9332,
+              "sha256": "a5fc4d0595941736ed0c2fc5fd85fe325d7a96cc9e3ca6c11f4932b85fe29576"
+            }
+          },
+          "flx.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1166906,
+              "sha256": "6e0abd6d15910219221161f822a397bec6a81b052d45a1ff8440bed0e4e04fca"
+            },
+            "raw": {
+              "bytes": 1166906,
+              "sha256": "6e0abd6d15910219221161f822a397bec6a81b052d45a1ff8440bed0e4e04fca"
+            }
+          },
+          "habitat.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654336,
+              "sha256": "b5c0e263365a3787cc28efddb163c71c05bcefa086fad15f5b547f0aff71e3a3"
+            },
+            "raw": {
+              "bytes": 654336,
+              "sha256": "b5c0e263365a3787cc28efddb163c71c05bcefa086fad15f5b547f0aff71e3a3"
+            }
+          },
+          "kflux_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 2208,
+              "sha256": "4db4d99f02033f9e4ceff318a3595880b0a6ec5e1b4f3966a8c2ca132c947f1a"
+            },
+            "raw": {
+              "bytes": 2208,
+              "sha256": "4db4d99f02033f9e4ceff318a3595880b0a6ec5e1b4f3966a8c2ca132c947f1a"
+            }
+          },
+          "massbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 22935,
+              "sha256": "5e593fb86f99043c7796160a10a4d43d1ed4cf14efd7e2cfb889d5cf6ea25eaa"
+            },
+            "raw": {
+              "bytes": 22935,
+              "sha256": "5e593fb86f99043c7796160a10a4d43d1ed4cf14efd7e2cfb889d5cf6ea25eaa"
+            }
+          },
+          "prf.opt": {
+            "excluded_counts": {
+              "model_clock": 1
+            },
+            "normalized": {
+              "bytes": 3853131,
+              "sha256": "7705c95c636226f1ba6a179f6e57a02c4b62e070241b86bd9e87eac5e9edb422"
+            },
+            "raw": {
+              "bytes": 3853141,
+              "sha256": "51bacbf153529d90e6d61c044954ea7bfcbb4981ecf44804ee5144d1d3d36a8e"
+            }
+          },
+          "q_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 167898,
+              "sha256": "6be0b4f350e40124a66f187e87adee0965f4654e62a12e5248603c559bfb42df"
+            },
+            "raw": {
+              "bytes": 167898,
+              "sha256": "6be0b4f350e40124a66f187e87adee0965f4654e62a12e5248603c559bfb42df"
+            }
+          },
+          "qwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 76636,
+              "sha256": "d045e5b1ef6ccdd95f9b84b6eff093994c0bf48b07074945082dbc3515756be1"
+            },
+            "raw": {
+              "bytes": 76636,
+              "sha256": "d045e5b1ef6ccdd95f9b84b6eff093994c0bf48b07074945082dbc3515756be1"
+            }
+          },
+          "qwo_layers_31_.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 516768,
+              "sha256": "c49385c9fdd08dfbbceda8895f651fee53d7fb555d4bc3bfcd6f630d30230f2a"
+            },
+            "raw": {
+              "bytes": 516768,
+              "sha256": "c49385c9fdd08dfbbceda8895f651fee53d7fb555d4bc3bfcd6f630d30230f2a"
+            }
+          },
+          "qwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 76636,
+              "sha256": "66b58a08654ce3cbee27365662d00a4c4397551bc4b2ce9d156ba771581fe923"
+            },
+            "raw": {
+              "bytes": 76636,
+              "sha256": "66b58a08654ce3cbee27365662d00a4c4397551bc4b2ce9d156ba771581fe923"
+            }
+          },
+          "snp.opt": {
+            "excluded_counts": {
+              "cpu_runtime": 1,
+              "model_clock": 1034,
+              "termination_clock": 1
+            },
+            "normalized": {
+              "bytes": 11009856,
+              "sha256": "33c8797064270506c8e20d08d101b5783dbfdd8905efcfbd3072a6c96867149e"
+            },
+            "raw": {
+              "bytes": 11020200,
+              "sha256": "4b5dcd23d3ff36f738be5f7dbdee40e2cfb43effd0b1e79dfdbbe453c4247024"
+            }
+          },
+          "spr.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1482994,
+              "sha256": "58c30440af93d777cf6dbc15efcc7605bb37ef42b36d29864e6794ae4704048b"
+            },
+            "raw": {
+              "bytes": 1482994,
+              "sha256": "58c30440af93d777cf6dbc15efcc7605bb37ef42b36d29864e6794ae4704048b"
+            }
+          },
+          "spr_volw.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 35158,
+              "sha256": "96f01eb26759a35a56b65329c0db4d66a0c16852254017bf773c27bdc98db1ae"
+            },
+            "raw": {
+              "bytes": 35158,
+              "sha256": "96f01eb26759a35a56b65329c0db4d66a0c16852254017bf773c27bdc98db1ae"
+            }
+          },
+          "str_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 106051,
+              "sha256": "18c0cb0e26856b1a66f8403fdc8e2f9c1afd7e32bdd683316341d142a37a13ce"
+            },
+            "raw": {
+              "bytes": 106051,
+              "sha256": "18c0cb0e26856b1a66f8403fdc8e2f9c1afd7e32bdd683316341d142a37a13ce"
+            }
+          },
+          "surfvolwtavg.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 715820,
+              "sha256": "95fe33530c33fcfc02346ec7ee11f79aeafb0c077e7f7626c3c81d53d0c01d15"
+            },
+            "raw": {
+              "bytes": 715820,
+              "sha256": "95fe33530c33fcfc02346ec7ee11f79aeafb0c077e7f7626c3c81d53d0c01d15"
+            }
+          },
+          "t_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 144369,
+              "sha256": "c72cf4511858a09bcdc9bbea8db2af1d32db1e4ac1eee9465954428c188789c4"
+            },
+            "raw": {
+              "bytes": 144369,
+              "sha256": "c72cf4511858a09bcdc9bbea8db2af1d32db1e4ac1eee9465954428c188789c4"
+            }
+          },
+          "tsr_1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 2914592,
+              "sha256": "e3c4c0b7eaed9185ef3f6249e46e67a23ec79980727bc8fe2d0bb51505e774a5"
+            },
+            "raw": {
+              "bytes": 2914592,
+              "sha256": "e3c4c0b7eaed9185ef3f6249e46e67a23ec79980727bc8fe2d0bb51505e774a5"
+            }
+          },
+          "two_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 64858,
+              "sha256": "147fd53357c5adb1e73ad6149ff2d2e46f37f5b6eceadaa91a5f71ad2186ca68"
+            },
+            "raw": {
+              "bytes": 64858,
+              "sha256": "147fd53357c5adb1e73ad6149ff2d2e46f37f5b6eceadaa91a5f71ad2186ca68"
+            }
+          },
+          "two_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 64858,
+              "sha256": "ea0cfbe3a8d256a4226204027147954b409c52e808969a344920221089eec673"
+            },
+            "raw": {
+              "bytes": 64858,
+              "sha256": "ea0cfbe3a8d256a4226204027147954b409c52e808969a344920221089eec673"
+            }
+          },
+          "volwgtavg.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 618613,
+              "sha256": "dcf5a5b7b79954eb067dc9ceabb238f62a07bc3ca838f9cb7283fc79fe874c83"
+            },
+            "raw": {
+              "bytes": 618613,
+              "sha256": "dcf5a5b7b79954eb067dc9ceabb238f62a07bc3ca838f9cb7283fc79fe874c83"
+            }
+          },
+          "wl.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 830175,
+              "sha256": "dbaae4c58382306994c631ced40915c78c34b2a7209e1109f61b1b6231dacd67"
+            },
+            "raw": {
+              "bytes": 830175,
+              "sha256": "dbaae4c58382306994c631ced40915c78c34b2a7209e1109f61b1b6231dacd67"
+            }
+          }
+        }
+      },
+      "detroit": {
+        "evidence": {
+          "capture_sha256": "813df0c8be6acd5a473495936c391a23a9c5ada31380d1c7719379207c510a21",
+          "description": "Original strict Linux port control / detroit",
+          "reference_executable_sha256": "e317b871da4880a6de56f14397ccbb0fe4ccbcd8012d35f11a00e554d57a8805"
+        },
+        "exit_code": -6,
+        "inputs": {
+          ".\\InputFiles\\2002_Blowout_Q.npt": {
+            "bytes": 313678,
+            "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+          },
+          ".\\InputFiles\\2002_Blowout_T.npt": {
+            "bytes": 318823,
+            "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+          },
+          ".\\InputFiles\\2002_Blowout_wq.npt": {
+            "bytes": 594819,
+            "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+          },
+          ".\\InputFiles\\2002_BoxCan_Q_est.npt": {
+            "bytes": 313739,
+            "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+          },
+          ".\\InputFiles\\2002_BoxCan_T_est.npt": {
+            "bytes": 466303,
+            "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+          },
+          ".\\InputFiles\\2002_BoxCan_estBBr_wq.npt": {
+            "bytes": 594858,
+            "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+          },
+          ".\\InputFiles\\2002_BreiBu_Q.npt": {
+            "bytes": 311497,
+            "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+          },
+          ".\\InputFiles\\2002_BreiBu_T.npt": {
+            "bytes": 319215,
+            "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+          },
+          ".\\InputFiles\\2002_BreiBu_wq.npt": {
+            "bytes": 595027,
+            "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+          },
+          ".\\InputFiles\\2002_French_Q.npt": {
+            "bytes": 298455,
+            "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+          },
+          ".\\InputFiles\\2002_French_T.npt": {
+            "bytes": 466339,
+            "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+          },
+          ".\\InputFiles\\2002_French_wq.npt": {
+            "bytes": 595674,
+            "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+          },
+          ".\\InputFiles\\2002_Kinney_Q_est.npt": {
+            "bytes": 313735,
+            "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+          },
+          ".\\InputFiles\\2002_Kinney_T_est.npt": {
+            "bytes": 466299,
+            "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+          },
+          ".\\InputFiles\\2002_Kinney_estBBr_wq.npt": {
+            "bytes": 594859,
+            "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+          },
+          ".\\InputFiles\\2002_NSant_Q_corr.npt": {
+            "bytes": 1156201,
+            "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+          },
+          ".\\InputFiles\\2002_NSant_T.npt": {
+            "bytes": 318432,
+            "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+          },
+          ".\\InputFiles\\2002_NSant_wq.npt": {
+            "bytes": 595376,
+            "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+          },
+          ".\\InputFiles\\2002_pre_detroit.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit2.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit3.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit4.npt": {
+            "bytes": 6683,
+            "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+          },
+          ".\\InputFiles\\2002_qdt_br1.npt": {
+            "bytes": 675,
+            "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+          },
+          ".\\InputFiles\\2002_qdt_br2.npt": {
+            "bytes": 675,
+            "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+          },
+          ".\\InputFiles\\2002_qdt_br3.npt": {
+            "bytes": 675,
+            "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+          },
+          ".\\InputFiles\\2002_qdt_br4.npt": {
+            "bytes": 675,
+            "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+          },
+          ".\\InputFiles\\2002_qdt_wq1.npt": {
+            "bytes": 595397,
+            "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+          },
+          ".\\InputFiles\\2002_qdt_wq2.npt": {
+            "bytes": 595055,
+            "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+          },
+          ".\\InputFiles\\2002_qdt_wq3.npt": {
+            "bytes": 594847,
+            "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+          },
+          ".\\InputFiles\\2002_qdt_wq4BBr.npt": {
+            "bytes": 594899,
+            "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+          },
+          ".\\InputFiles\\2002_tdt_br1.npt": {
+            "bytes": 318439,
+            "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+          },
+          ".\\InputFiles\\2002_tdt_br2.npt": {
+            "bytes": 319231,
+            "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+          },
+          ".\\InputFiles\\2002_tdt_br3.npt": {
+            "bytes": 318849,
+            "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+          },
+          ".\\InputFiles\\2002_tdt_br4F.npt": {
+            "bytes": 466268,
+            "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+          },
+          ".\\InputFiles\\2002_tpr_detroit.npt": {
+            "bytes": 6696,
+            "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+          },
+          ".\\InputFiles\\2002_tpr_detroit2.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          ".\\InputFiles\\2002_tpr_detroit3.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          ".\\InputFiles\\2002_tpr_detroit4.npt": {
+            "bytes": 6693,
+            "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+          },
+          ".\\InputFiles\\bth1.csv": {
+            "bytes": 18324,
+            "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+          },
+          ".\\InputFiles\\metDetroit2002.csv": {
+            "bytes": 297114,
+            "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+          },
+          ".\\InputFiles\\q3.npt": {
+            "bytes": 505619,
+            "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+          },
+          ".\\InputFiles\\qwd_dss.npt": {
+            "bytes": 227231,
+            "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+          },
+          ".\\InputFiles\\shade.npt": {
+            "bytes": 7545,
+            "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+          },
+          ".\\InputFiles\\wsc.npt": {
+            "bytes": 703,
+            "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+          },
+          "InputFiles/2002_Blowout_Q.npt": {
+            "bytes": 313678,
+            "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+          },
+          "InputFiles/2002_Blowout_T.npt": {
+            "bytes": 318823,
+            "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+          },
+          "InputFiles/2002_Blowout_wq.npt": {
+            "bytes": 594819,
+            "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+          },
+          "InputFiles/2002_BoxCan_Q_est.npt": {
+            "bytes": 313739,
+            "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+          },
+          "InputFiles/2002_BoxCan_T_est.npt": {
+            "bytes": 466303,
+            "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+          },
+          "InputFiles/2002_BoxCan_estBBr_wq.npt": {
+            "bytes": 594858,
+            "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+          },
+          "InputFiles/2002_BreiBu_Q.npt": {
+            "bytes": 311497,
+            "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+          },
+          "InputFiles/2002_BreiBu_T.npt": {
+            "bytes": 319215,
+            "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+          },
+          "InputFiles/2002_BreiBu_wq.npt": {
+            "bytes": 595027,
+            "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+          },
+          "InputFiles/2002_French_Q.npt": {
+            "bytes": 298455,
+            "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+          },
+          "InputFiles/2002_French_T.npt": {
+            "bytes": 466339,
+            "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+          },
+          "InputFiles/2002_French_wq.npt": {
+            "bytes": 595674,
+            "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+          },
+          "InputFiles/2002_Kinney_Q_est.npt": {
+            "bytes": 313735,
+            "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+          },
+          "InputFiles/2002_Kinney_T_est.npt": {
+            "bytes": 466299,
+            "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+          },
+          "InputFiles/2002_Kinney_estBBr_wq.npt": {
+            "bytes": 594859,
+            "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+          },
+          "InputFiles/2002_NSant_Q.npt": {
+            "bytes": 315342,
+            "sha256": "674d4c7c1a3e54e590ebe5d834e667407869cd62a412a330e69c71f13ab88470"
+          },
+          "InputFiles/2002_NSant_Q_corr.npt": {
+            "bytes": 1156201,
+            "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+          },
+          "InputFiles/2002_NSant_T.npt": {
+            "bytes": 318432,
+            "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+          },
+          "InputFiles/2002_NSant_wq.npt": {
+            "bytes": 595376,
+            "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+          },
+          "InputFiles/2002_detroit_met.npt": {
+            "bytes": 505778,
+            "sha256": "5428631c7a193f716f08fb2ad1ba453f5bd7434d85b39311b1481b39a4972dd0"
+          },
+          "InputFiles/2002_pre_detroit.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit2.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit3.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit4.npt": {
+            "bytes": 6683,
+            "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+          },
+          "InputFiles/2002_qdt_br1.npt": {
+            "bytes": 675,
+            "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+          },
+          "InputFiles/2002_qdt_br2.npt": {
+            "bytes": 675,
+            "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+          },
+          "InputFiles/2002_qdt_br3.npt": {
+            "bytes": 675,
+            "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+          },
+          "InputFiles/2002_qdt_br4.npt": {
+            "bytes": 675,
+            "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+          },
+          "InputFiles/2002_qdt_wq1.npt": {
+            "bytes": 595397,
+            "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+          },
+          "InputFiles/2002_qdt_wq2.npt": {
+            "bytes": 595055,
+            "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+          },
+          "InputFiles/2002_qdt_wq3.npt": {
+            "bytes": 594847,
+            "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+          },
+          "InputFiles/2002_qdt_wq4BBr.npt": {
+            "bytes": 594899,
+            "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+          },
+          "InputFiles/2002_qwd.npt": {
+            "bytes": 227801,
+            "sha256": "3b601d043a3e6bd366a522629ec9b294ccf625289997fb76fb2765ebccd00e3d"
+          },
+          "InputFiles/2002_tdt_br1.npt": {
+            "bytes": 318439,
+            "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+          },
+          "InputFiles/2002_tdt_br2.npt": {
+            "bytes": 319231,
+            "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+          },
+          "InputFiles/2002_tdt_br3.npt": {
+            "bytes": 318849,
+            "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+          },
+          "InputFiles/2002_tdt_br4F.npt": {
+            "bytes": 466268,
+            "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+          },
+          "InputFiles/2002_tpr_detroit.npt": {
+            "bytes": 6696,
+            "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+          },
+          "InputFiles/2002_tpr_detroit2.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          "InputFiles/2002_tpr_detroit3.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          "InputFiles/2002_tpr_detroit4.npt": {
+            "bytes": 6693,
+            "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+          },
+          "InputFiles/bth1.csv": {
+            "bytes": 18324,
+            "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+          },
+          "InputFiles/metDetroit2002.csv": {
+            "bytes": 297114,
+            "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+          },
+          "InputFiles/q3.npt": {
+            "bytes": 505619,
+            "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+          },
+          "InputFiles/qwd_dss.npt": {
+            "bytes": 227231,
+            "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+          },
+          "InputFiles/shade.npt": {
+            "bytes": 7545,
+            "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+          },
+          "InputFiles/wsc.npt": {
+            "bytes": 703,
+            "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+          },
+          "w2_con.csv": {
+            "bytes": 395805,
+            "sha256": "6d6240c0a476a94e3d5d5aa2f8370ee541dd7959fe201dce44658bea85800e41"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2235,
+            "sha256": "60dd938c9cc8e67b9f7f1fee7407f58b0b25ad4e905430a03d8615060823f2ff"
+          },
+          "w2_habitat.npt": {
+            "bytes": 982,
+            "sha256": "82f51037013be59b357d67518d120c4b00402041ff7786dfe3885a7a303a7d65"
+          }
+        },
+        "outputs": {
+          ".\\HabitatFiles\\habitat.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112692,
+              "sha256": "cf843321166887e684b57fd38054072daff379ec25a2fe88e72440ef7ac44a28"
+            },
+            "raw": {
+              "bytes": 112692,
+              "sha256": "cf843321166887e684b57fd38054072daff379ec25a2fe88e72440ef7ac44a28"
+            }
+          },
+          "Detroit.w2l": {
+            "excluded_counts": {
+              "TITLE(11)": 1
+            },
+            "normalized": {
+              "bytes": 34826018,
+              "sha256": "0f5304c77c8e4e2f5e1f45f62c7e63e9ca6685046bab88193bee67dd354f5141"
+            },
+            "raw": {
+              "bytes": 34826018,
+              "sha256": "922b2ab75d01bf83672952761c711e843dd152ffc05846a9795b345c927b55d3"
+            }
+          },
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "9f667805f568edc21a95426ff19a75a817574961aaca7e67590293b528d965a6"
+            }
+          },
+          "c_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 41602,
+              "sha256": "9239531bffe75193f78fb4d021ea64ea982952d16cd90dbf223d1106218204dd"
+            },
+            "raw": {
+              "bytes": 41602,
+              "sha256": "9239531bffe75193f78fb4d021ea64ea982952d16cd90dbf223d1106218204dd"
+            }
+          },
+          "cpl1.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 874054,
+              "sha256": "45841db39746f4e3faa749a34c58ef6f0ced4151ace90c5fe991050ee2c6acbf"
+            },
+            "raw": {
+              "bytes": 874054,
+              "sha256": "45841db39746f4e3faa749a34c58ef6f0ced4151ace90c5fe991050ee2c6acbf"
+            }
+          },
+          "cwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 37412,
+              "sha256": "75a10cf7e0a12dd82e1001ffb1c0bc78e36b9dd5d88aa2a11d2396dc4be9b53a"
+            },
+            "raw": {
+              "bytes": 37412,
+              "sha256": "75a10cf7e0a12dd82e1001ffb1c0bc78e36b9dd5d88aa2a11d2396dc4be9b53a"
+            }
+          },
+          "cwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 37412,
+              "sha256": "9302da7d0523c97d964c3ec6aaebe39199c2dbbd28c4f3c0618b848f68d65d75"
+            },
+            "raw": {
+              "bytes": 37412,
+              "sha256": "9302da7d0523c97d964c3ec6aaebe39199c2dbbd28c4f3c0618b848f68d65d75"
+            }
+          },
+          "cwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 37412,
+              "sha256": "5324ea6753989bed2b2adb2a4167cc5041ca554d6ebc3b0f83f1cfa8fc1923e0"
+            },
+            "raw": {
+              "bytes": 37412,
+              "sha256": "5324ea6753989bed2b2adb2a4167cc5041ca554d6ebc3b0f83f1cfa8fc1923e0"
+            }
+          },
+          "d_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 24551,
+              "sha256": "94b40a86d99f75411f6ee5c49736f13470860de7c56ab567fad2d3f4b4f93423"
+            },
+            "raw": {
+              "bytes": 24551,
+              "sha256": "94b40a86d99f75411f6ee5c49736f13470860de7c56ab567fad2d3f4b4f93423"
+            }
+          },
+          "dwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 22484,
+              "sha256": "5dc0e4dfb021e888d392d319b007d2c8fba1b5458792684abc664b7fa00f78c9"
+            },
+            "raw": {
+              "bytes": 22484,
+              "sha256": "5dc0e4dfb021e888d392d319b007d2c8fba1b5458792684abc664b7fa00f78c9"
+            }
+          },
+          "dwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 22484,
+              "sha256": "8b4194e0b77f80c089e2f9e209d8619770ba44f0c6cc3eaa7a4a767a94aa98cd"
+            },
+            "raw": {
+              "bytes": 22484,
+              "sha256": "8b4194e0b77f80c089e2f9e209d8619770ba44f0c6cc3eaa7a4a767a94aa98cd"
+            }
+          },
+          "dwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 22484,
+              "sha256": "3f508069bd63bbd738b899d5227d8a6a7d0cb2d29d0aae2d1ad423283a0d38e6"
+            },
+            "raw": {
+              "bytes": 22484,
+              "sha256": "3f508069bd63bbd738b899d5227d8a6a7d0cb2d29d0aae2d1ad423283a0d38e6"
+            }
+          },
+          "fish_habitat_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112715,
+              "sha256": "2ab66e36e776a8fc64ab490b5e77e2b842b9943c24fc74d07dbbf8f699dda59b"
+            },
+            "raw": {
+              "bytes": 112715,
+              "sha256": "2ab66e36e776a8fc64ab490b5e77e2b842b9943c24fc74d07dbbf8f699dda59b"
+            }
+          },
+          "fish_habitat_br2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112715,
+              "sha256": "eba6f1bc3afa52c8a1e165f280be612fd64862f2efdb521d4473afc778f28604"
+            },
+            "raw": {
+              "bytes": 112715,
+              "sha256": "eba6f1bc3afa52c8a1e165f280be612fd64862f2efdb521d4473afc778f28604"
+            }
+          },
+          "fish_habitat_br3.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112715,
+              "sha256": "282dd14a5c09ec9b4818e091600602aa7e823de1f03161afaa37522fa4f52182"
+            },
+            "raw": {
+              "bytes": 112715,
+              "sha256": "282dd14a5c09ec9b4818e091600602aa7e823de1f03161afaa37522fa4f52182"
+            }
+          },
+          "fish_habitat_br4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112715,
+              "sha256": "7784b07512353f3b64aa00c652254d8dd0d9786fdf74ee3f6ab9c10da7a8c681"
+            },
+            "raw": {
+              "bytes": 112715,
+              "sha256": "7784b07512353f3b64aa00c652254d8dd0d9786fdf74ee3f6ab9c10da7a8c681"
+            }
+          },
+          "fish_habitat_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 112718,
+              "sha256": "106959c4c64bbb56bad54ab9b219e9a472cd164a73ad210e97dad762c30a13a1"
+            },
+            "raw": {
+              "bytes": 112718,
+              "sha256": "106959c4c64bbb56bad54ab9b219e9a472cd164a73ad210e97dad762c30a13a1"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 986,
+              "sha256": "5896532cc2e868a61db8b020acbafa3833a81214fc77285ddfde2463758d3d0d"
+            },
+            "raw": {
+              "bytes": 986,
+              "sha256": "5896532cc2e868a61db8b020acbafa3833a81214fc77285ddfde2463758d3d0d"
+            }
+          },
+          "q_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 36323,
+              "sha256": "fe067b62f2b9ef477689dc288d5cfa4b9fd9725004d44caa30d0f640f95cac61"
+            },
+            "raw": {
+              "bytes": 36323,
+              "sha256": "fe067b62f2b9ef477689dc288d5cfa4b9fd9725004d44caa30d0f640f95cac61"
+            }
+          },
+          "qwo_layers_11_.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 159674,
+              "sha256": "8725b5536a0b9388c92d3700a6c52abedd67888cb35f6214416cdb986e19885a"
+            },
+            "raw": {
+              "bytes": 159674,
+              "sha256": "8725b5536a0b9388c92d3700a6c52abedd67888cb35f6214416cdb986e19885a"
+            }
+          },
+          "qwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 13950,
+              "sha256": "35c9dd5219bc20c7f8117b74b120b9ef00e0202fe8f9de80bcbd88ee3d1a24f5"
+            },
+            "raw": {
+              "bytes": 13950,
+              "sha256": "35c9dd5219bc20c7f8117b74b120b9ef00e0202fe8f9de80bcbd88ee3d1a24f5"
+            }
+          },
+          "qwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 13950,
+              "sha256": "40f7fc86c99f05b6062b9a3ab04cc5d2212da08c953a024eeb59b2bd177ffc4b"
+            },
+            "raw": {
+              "bytes": 13950,
+              "sha256": "40f7fc86c99f05b6062b9a3ab04cc5d2212da08c953a024eeb59b2bd177ffc4b"
+            }
+          },
+          "qwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 13950,
+              "sha256": "4db765478b726f005792ed3497b0db2d418344fbd65b6395ba887227b295df3d"
+            },
+            "raw": {
+              "bytes": 13950,
+              "sha256": "4db765478b726f005792ed3497b0db2d418344fbd65b6395ba887227b295df3d"
+            }
+          },
+          "snp1.opt": {
+            "excluded_counts": {
+              "model_clock": 486
+            },
+            "normalized": {
+              "bytes": 4972670,
+              "sha256": "4b3f8e03a6ba3896939ad934fa1e373a0e7f58b6c27551fd5ead8f4a836bbb30"
+            },
+            "raw": {
+              "bytes": 4977530,
+              "sha256": "b36ce19d63e4a0fab0487b560cef2390fd989d317e386d77c10d00c644474383"
+            }
+          },
+          "spr1.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 94,
+              "sha256": "70b741259ee5ead214afe226c8733e76cae77d08636f7f589741f3141075e9ae"
+            },
+            "raw": {
+              "bytes": 94,
+              "sha256": "70b741259ee5ead214afe226c8733e76cae77d08636f7f589741f3141075e9ae"
+            }
+          },
+          "t_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 31018,
+              "sha256": "35c24faea00d2f10135d7ae9730ad458a4805dcc790806e3918a16892ae4b183"
+            },
+            "raw": {
+              "bytes": 31018,
+              "sha256": "35c24faea00d2f10135d7ae9730ad458a4805dcc790806e3918a16892ae4b183"
+            }
+          },
+          "tsr_1_seg9.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 175887,
+              "sha256": "7a662b6079c19c0e938c0dd47b03109e3c3e8afa3c0eb25ccbc0db9332f0024e"
+            },
+            "raw": {
+              "bytes": 175887,
+              "sha256": "7a662b6079c19c0e938c0dd47b03109e3c3e8afa3c0eb25ccbc0db9332f0024e"
+            }
+          },
+          "tsr_2_seg10.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 175887,
+              "sha256": "ff5c58d435842e2633f7d3db7fa0f41b32b1b355a64e6d25fcf60410d9cf6c50"
+            },
+            "raw": {
+              "bytes": 175887,
+              "sha256": "ff5c58d435842e2633f7d3db7fa0f41b32b1b355a64e6d25fcf60410d9cf6c50"
+            }
+          },
+          "tsr_3_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 175887,
+              "sha256": "f4abb8232da2b70f33ba8bdb89a1752c6c8e208bc1b039f48700afd285ebb798"
+            },
+            "raw": {
+              "bytes": 175887,
+              "sha256": "f4abb8232da2b70f33ba8bdb89a1752c6c8e208bc1b039f48700afd285ebb798"
+            }
+          },
+          "tsr_4_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 175887,
+              "sha256": "f4abb8232da2b70f33ba8bdb89a1752c6c8e208bc1b039f48700afd285ebb798"
+            },
+            "raw": {
+              "bytes": 175887,
+              "sha256": "f4abb8232da2b70f33ba8bdb89a1752c6c8e208bc1b039f48700afd285ebb798"
+            }
+          },
+          "two_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 11816,
+              "sha256": "5ee5285b3b2a3a278866e0030aef976b3b775008d820a138c04b297d39c92591"
+            },
+            "raw": {
+              "bytes": 11816,
+              "sha256": "5ee5285b3b2a3a278866e0030aef976b3b775008d820a138c04b297d39c92591"
+            }
+          },
+          "two_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 11816,
+              "sha256": "781aa996f47f35e087d6faa9b478017042b286eaba42a07c55433ce12f1e7fd6"
+            },
+            "raw": {
+              "bytes": 11816,
+              "sha256": "781aa996f47f35e087d6faa9b478017042b286eaba42a07c55433ce12f1e7fd6"
+            }
+          },
+          "two_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 11816,
+              "sha256": "d27938cc45bec27b169a5d44e8252b7b5289eddcb2abb3153c4bdeddc965945a"
+            },
+            "raw": {
+              "bytes": 11816,
+              "sha256": "d27938cc45bec27b169a5d44e8252b7b5289eddcb2abb3153c4bdeddc965945a"
+            }
+          },
+          "w2.err": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "raw": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          },
+          "w2.wrn": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1073,
+              "sha256": "2bd9b14f38ae7903e5ddc5a06160031bf84ed905ebf0e1fd851f7eff1014a0f1"
+            },
+            "raw": {
+              "bytes": 1073,
+              "sha256": "2bd9b14f38ae7903e5ddc5a06160031bf84ed905ebf0e1fd851f7eff1014a0f1"
+            }
+          }
+        }
+      },
+      "spokane": {
+        "evidence": {
+          "capture_sha256": "986bf16e2470e3524f03889438f55dee1883ad91af4aed6b9dcbc2dae3fc7f60",
+          "description": "Original strict Linux port control / spokane",
+          "reference_executable_sha256": "e4391c3af9832fe3f4b26b89ae855bea6fd53d72667d7b367894bc886ca7d79f"
+        },
+        "exit_code": 0,
+        "inputs": {
+          "bth1.csv": {
+            "bytes": 24478,
+            "sha256": "5f6c526251d7910a6cef5c81f1a5958e5102db825f90d2f9c0dcadefc994f3e2"
+          },
+          "cdt8.csv": {
+            "bytes": 829,
+            "sha256": "f779b2ea15c492e1145c885451e99b9f8e97c37419ae80678c2dcaf06fc1d422"
+          },
+          "cdt9.csv": {
+            "bytes": 829,
+            "sha256": "ce4cdc34b0b7f217230bfcd8d6b2784bafeb69c77cd453dbec37cc9fd98d8215"
+          },
+          "cin.csv": {
+            "bytes": 11649007,
+            "sha256": "ed73aced206401236787c2a34c92b8f671b5369df9d0b544f02a601815b95b1e"
+          },
+          "hangmanc.csv": {
+            "bytes": 4398,
+            "sha256": "8c8e9da762edc27ff6bc92e443d9e400354a001a179fd42c6726ba7acdcd567b"
+          },
+          "hangq01.csv": {
+            "bytes": 439339,
+            "sha256": "854de9b182ac131af2d439a8d176fca9f77e5d2ab5f20c22f30771881886cfa3"
+          },
+          "hangt01.csv": {
+            "bytes": 239,
+            "sha256": "98002d19380aafb5ad83b279f4754c0e882c6ff2aea8df8e604232a72cbed9c3"
+          },
+          "lpr.csv": {
+            "bytes": 4303,
+            "sha256": "50df7aa0877bd6fe7e35fcf461fd08c4d9896726dd2be894b28a7d4a52a82f4c"
+          },
+          "met.csv": {
+            "bytes": 310320,
+            "sha256": "2c6f03ab0f572ca145672bf77cf824fcdd6a15a32f06db7ac03147e2b8e8fbfa"
+          },
+          "qdt_br8.csv": {
+            "bytes": 4169,
+            "sha256": "4271cb6b31ae5ee5659fb4e2c8b0faff5b7868f56e2fdb5843258be13c09cb5f"
+          },
+          "qdt_br9.csv": {
+            "bytes": 3916,
+            "sha256": "d836953abf2c92aca70124176d916ec837a2bef88ea5a8be32a9b0660164dfe4"
+          },
+          "qin_br8.npt": {
+            "bytes": 545464,
+            "sha256": "7f227a43809f917ccc82765db611798753ca9508ff1c1c89d74ed829ada5231d"
+          },
+          "qtr_zero.npt": {
+            "bytes": 82,
+            "sha256": "58671388504bf8cd08cabbef0480c34326fe74fa7e653faea1feeed50fb47efe"
+          },
+          "shade.csv": {
+            "bytes": 6095,
+            "sha256": "32abce642c0d623b62df0d0e3455beb9302d0cd825f72a64bb2798e15be7ee10"
+          },
+          "spkwwtpq01.csv": {
+            "bytes": 4660,
+            "sha256": "16808ecbf0055d90298900da4e9cf3b7d46940f3676880bb7da0a34c93f00be3"
+          },
+          "spkwwtpt01.csv": {
+            "bytes": 4268,
+            "sha256": "ea3e4749cd97fa6e9462feee365d71ff5cecc0d6d445c02fc55a32c0067a8926"
+          },
+          "spokanewwtpc.csv": {
+            "bytes": 59021,
+            "sha256": "9e9dc888a67f36a70dc3271c86051522ed0d06919e54c0d8b87480e0ceb00813"
+          },
+          "tdt_br8.npt": {
+            "bytes": 199,
+            "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+          },
+          "tdt_br9.npt": {
+            "bytes": 199,
+            "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+          },
+          "tin_br8.csv": {
+            "bytes": 422453,
+            "sha256": "be39c179ffd5c4fbdb548013981f4204024c6152ca3275f14454b991285ff376"
+          },
+          "vpr.csv": {
+            "bytes": 309,
+            "sha256": "454c7d011cb86d7f9397914ea243ac9704957393ff0d944e03fa479fd1497127"
+          },
+          "w2_aerate.npt": {
+            "bytes": 377,
+            "sha256": "a27d567da9e94fefc837ee8fb951e708137f797a35c7127ec179571bba610d08"
+          },
+          "w2_con.csv": {
+            "bytes": 126731,
+            "sha256": "9ee1acf680e883aa8f342109fe137fb1432c668c0646076b30adab0f0036b41f"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2240,
+            "sha256": "4f26b59a95395c800ba776a3d6ce2c111a7a1800f5242bdf2ce7045951c0dbea"
+          },
+          "w2_habitat.npt": {
+            "bytes": 803,
+            "sha256": "3d49768986f7fbce71cfa17156678ac81ff7d40e5f05d03a9c7a9b2afc538b96"
+          },
+          "w2_selective.npt": {
+            "bytes": 3059,
+            "sha256": "40d9758cbcf0d806d5b085bd40c8c0ef2808d71289c1150f14a288fdd692a7cd"
+          },
+          "wsc.csv": {
+            "bytes": 402,
+            "sha256": "a99822d0d471374dac91ff6a9e43e16098eaa2dfc77c55949b249653008bf13e"
+          }
+        },
+        "outputs": {
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "c215d4592f964ba3c5aa9e68443a80a3a83aaa11d71be848613d2440a7d1f2a2"
+            }
+          },
+          "cpl1.opt": {
+            "excluded_counts": {
+              "model_clock": 1
+            },
+            "normalized": {
+              "bytes": 21451840,
+              "sha256": "d9b95ba5419b2f65e572de3b78126dbf79f95003633dfb535776880a9cab2922"
+            },
+            "raw": {
+              "bytes": 21451850,
+              "sha256": "a6dae4eafacbc0a45c281d7e24b81652d85b626c3f49fd04d27c5849230cc0a8"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 344,
+              "sha256": "eb49d9b6e124584987a014899dfcd6e3d2dc4028caac4c8b202f114d23822672"
+            },
+            "raw": {
+              "bytes": 344,
+              "sha256": "eb49d9b6e124584987a014899dfcd6e3d2dc4028caac4c8b202f114d23822672"
+            }
+          },
+          "snp1.opt": {
+            "excluded_counts": {
+              "cpu_runtime": 1,
+              "model_clock": 226,
+              "termination_clock": 1
+            },
+            "normalized": {
+              "bytes": 2505296,
+              "sha256": "aaa4efbdeddabd68862bcb93ac22b4a6b7385039072d5a76f825351c28b2b3f6"
+            },
+            "raw": {
+              "bytes": 2507560,
+              "sha256": "0cda99f91654293b9fdad80c28081f0a3b2451b1f3e044c195c7a8f00be3bfaa"
+            }
+          },
+          "tsr_1_seg2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "ec4fbfb7c6ab8a5ca00b545bdb515281ea31e1b2314b1d57d15d1c1a9f5f02e3"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "ec4fbfb7c6ab8a5ca00b545bdb515281ea31e1b2314b1d57d15d1c1a9f5f02e3"
+            }
+          },
+          "tsr_2_seg7.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "6d29a1af226f4430d22e14e6ba6bc23d5ad8a14c09dca4b97532bc7a04aa6481"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "6d29a1af226f4430d22e14e6ba6bc23d5ad8a14c09dca4b97532bc7a04aa6481"
+            }
+          },
+          "tsr_3_seg10.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "d2c1320b9e2b70d0f1ee1b1843868fd63632fc0aa6c216b746fe4c4ec7b07974"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "d2c1320b9e2b70d0f1ee1b1843868fd63632fc0aa6c216b746fe4c4ec7b07974"
+            }
+          },
+          "tsr_4_seg19.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "a19ffecddc9f546cd04be0bf5f915a9d8c915e6e88d27434871aecfada7ed7bb"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "a19ffecddc9f546cd04be0bf5f915a9d8c915e6e88d27434871aecfada7ed7bb"
+            }
+          },
+          "tsr_5_seg27.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "a7d185c75218bf29f0f7d36a14fe8e2a7ba5c4b77358cfa12369d1c207f71d23"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "a7d185c75218bf29f0f7d36a14fe8e2a7ba5c4b77358cfa12369d1c207f71d23"
+            }
+          },
+          "tsr_6_seg32.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "ae9fb016a854ac205fa1376e0b501d28c111d0fdbd5e8ff876935061335f63f5"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "ae9fb016a854ac205fa1376e0b501d28c111d0fdbd5e8ff876935061335f63f5"
+            }
+          },
+          "tsr_7_seg41.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "759fc428196e228beda08fdb54502c21440f4c91728056a04658c4a4de159d35"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "759fc428196e228beda08fdb54502c21440f4c91728056a04658c4a4de159d35"
+            }
+          },
+          "w2.wrn": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 992,
+              "sha256": "195a771406448bde31a6e53d10d10812da4d1cbb918097ba1c3a5f504d6fbfa1"
+            },
+            "raw": {
+              "bytes": 992,
+              "sha256": "195a771406448bde31a6e53d10d10812da4d1cbb918097ba1c3a5f504d6fbfa1"
+            }
+          }
+        }
+      }
+    },
+    "windows-compatible-invalid-only": {
+      "degray": {
+        "evidence": {
+          "capture_sha256": "f17af8a598ac7da506073088b4a37f91c8f2da9d11dbf9414209522d68a265e9",
+          "description": "Accepted five-site invalid-only experiment / degray",
+          "reference_executable_sha256": "61348af88003b33f708947867f77eb5adb89169916004f0843a483678e7c7a66"
+        },
+        "exit_code": 0,
+        "inputs": {
+          "W2_AERATE.NPT": {
+            "bytes": 351,
+            "sha256": "fadc12033d047bf29c86e15017d755c37ce5dab785a25c3f953086112e585a40"
+          },
+          "W2_diagenesis.npt": {
+            "bytes": 9008,
+            "sha256": "fef93bd43a9b7edd93f0e201788e34f07c66460e23836fcfb7a3e477824a57aa"
+          },
+          "atm_deposition_wb1.csv": {
+            "bytes": 198,
+            "sha256": "1229cb65429297db2e359b4eee71a7065a690ecbb3842d156fbc1b32c2c50bae"
+          },
+          "bth1.csv": {
+            "bytes": 14792,
+            "sha256": "0eb99112007ecb44014ff17da1738c9e50e5853e9b1a24f291f88673615d6a15"
+          },
+          "cin_br1.csv": {
+            "bytes": 3362,
+            "sha256": "f476d1f511275b04a85c08d9a4ce35a1a4d4d8dccd8fdd9fff3979e80bb95824"
+          },
+          "dynpump1.npt": {
+            "bytes": 281,
+            "sha256": "75177486064d4a1094fd03d6763dee4605c43c066e78484321f5642077b8ae0a"
+          },
+          "dynselective1.npt": {
+            "bytes": 196,
+            "sha256": "723ebecf1dcd51ff70d46c57bf950d576bdc7d3c2237f08cab7f7bd59c2cc18a"
+          },
+          "met.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "met2.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "met3.csv": {
+            "bytes": 79259,
+            "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+          },
+          "prf_dam.npt": {
+            "bytes": 119211,
+            "sha256": "6c637170683d49ff07c82fd509780dbbed76c9b73381e4148544eaa675f85491"
+          },
+          "qgt.npt": {
+            "bytes": 48,
+            "sha256": "027e078d2fa4889e5d7c5520645fc60eb095fcbf0fe4ad5bb4db1ea594ccb4df"
+          },
+          "qin_br1.npt": {
+            "bytes": 5831,
+            "sha256": "090bdef558df24475986f4131c0d8be18bb05921b08562025883400bc5102d04"
+          },
+          "qin_br1_equal.npt": {
+            "bytes": 143,
+            "sha256": "d9e81706c488fa822a1dbac245297fde5077607b566714ad8004f5585bab197f"
+          },
+          "qot_br1.npt": {
+            "bytes": 6677,
+            "sha256": "55606ec4d08d8fbbc4e13f8f44cda04b104badfb0db9dc95f5c1ecfdf40b3017"
+          },
+          "qot_br1_equal.npt": {
+            "bytes": 143,
+            "sha256": "b072b4aaef3872fa6e35e957a023840d11ec292c69a4f80ec0e7b0be54e2a521"
+          },
+          "shade.npt": {
+            "bytes": 934,
+            "sha256": "3305585f22362bd730c50b5077127b49cc31e16b983180f106c67ab29edfbdf7"
+          },
+          "tin_br1.npt": {
+            "bytes": 6677,
+            "sha256": "d0573c5afd828fdaee13acb57d07fe4475427a609a2533eb6c4881a09b613ccd"
+          },
+          "vpr.npt": {
+            "bytes": 1131,
+            "sha256": "965c6da6330301c50af339f461d2ebbb647de1332f7b46e7fd1fdff4244bcc20"
+          },
+          "w2_AlgaeMigration.csv": {
+            "bytes": 6385,
+            "sha256": "2acbbaa602850ae7047bd7828a3b624ec0c89b4395323b541623a3ebcc7f0465"
+          },
+          "w2_Algae_Toxin.csv": {
+            "bytes": 382,
+            "sha256": "6a5dba55dfa81efddb10cdcf0be8c0c933085119c08397489fdeb2a091ac5d1a"
+          },
+          "w2_TDGtarget.csv": {
+            "bytes": 1556,
+            "sha256": "946e61e51f733883a1b39be2fcafc61cbc7e7bccfdb9ce6f800cbf075ffc571b"
+          },
+          "w2_con.csv": {
+            "bytes": 113066,
+            "sha256": "98be682f17eb6140a2df46acb102d48fc064d05239475f116b02cd6d5cad98b4"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2222,
+            "sha256": "831399ca7136b38b13eb5e255e752f24b6efbe40cc2d464030d34172a4128b5d"
+          },
+          "w2_habitat.npt": {
+            "bytes": 968,
+            "sha256": "7a0259da353e391fb59b2a8f70cab6604d73f53dfe43ac3993759b529c966fbf"
+          },
+          "w2_lake_river_contour.csv": {
+            "bytes": 418,
+            "sha256": "0b243b542e8b48b0106496f5fefab12e7e4b17ccf5cf4de2656ff2899407b8bc"
+          },
+          "w2_multiple_WB.npt": {
+            "bytes": 446,
+            "sha256": "241d101cab30f7070c937cc973c8dd0439dada6576c5552e4e0008c176fa1c62"
+          },
+          "w2_selective.npt": {
+            "bytes": 1494,
+            "sha256": "fd5b76386f9384b8e637935c0869a929a6919bb60596f54aa1b5bf9af852de31"
+          },
+          "w2_systdg.npt": {
+            "bytes": 1359,
+            "sha256": "5ada43c1be8209d59c0a85e3674e0a1f7ae95bb62721dbb3f5ca228636531fd4"
+          },
+          "w2_tecplotbr.csv": {
+            "bytes": 213,
+            "sha256": "cc8c5a02762f0c85ddbbf34a22872a5700cb873f3902b67dbf4ce659bf4ffb9a"
+          },
+          "wsc.npt": {
+            "bytes": 705,
+            "sha256": "b7fef70bbc9058aa93cd0f73df8bb833f77396a0dd3f6f702863b8d71a800dd3"
+          }
+        },
+        "outputs": {
+          "DiagenesisLogFile.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "raw": {
+              "bytes": 0,
+              "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          },
+          "LakeContour_DO_Seg31 .csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 256690,
+              "sha256": "4048089cc9b0f4791253771f05eba28f9fddf79f035bb9f74a347f5689139ce2"
+            },
+            "raw": {
+              "bytes": 256690,
+              "sha256": "4048089cc9b0f4791253771f05eba28f9fddf79f035bb9f74a347f5689139ce2"
+            }
+          },
+          "LakeContour_T_Seg31 .csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 256684,
+              "sha256": "838d5343bfa138ac72653c2d5b1a920a0fb084bd12b3f11878e418ac23b8637a"
+            },
+            "raw": {
+              "bytes": 256684,
+              "sha256": "838d5343bfa138ac72653c2d5b1a920a0fb084bd12b3f11878e418ac23b8637a"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 109947,
+              "sha256": "a946ba2103010cebbc47ed8edefe83009de2b771b9560f48b3133c8da8fdfabd"
+            },
+            "raw": {
+              "bytes": 109947,
+              "sha256": "a946ba2103010cebbc47ed8edefe83009de2b771b9560f48b3133c8da8fdfabd"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CH4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119092,
+              "sha256": "f9f31bff226583a462be970e294a3160cda6bbfaaad99a0487a1f8fcf4368e7b"
+            },
+            "raw": {
+              "bytes": 119092,
+              "sha256": "f9f31bff226583a462be970e294a3160cda6bbfaaad99a0487a1f8fcf4368e7b"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CH4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119682,
+              "sha256": "a826fafcd8a14227c30300aa101297cefd732b508bfff664512695e96fc861a9"
+            },
+            "raw": {
+              "bytes": 119682,
+              "sha256": "a826fafcd8a14227c30300aa101297cefd732b508bfff664512695e96fc861a9"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_CSOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216961,
+              "sha256": "f03e284dc83f97dcc4b7e22fc5fd97b7c2069be6a92c621237f7762ff285a494"
+            },
+            "raw": {
+              "bytes": 216961,
+              "sha256": "f03e284dc83f97dcc4b7e22fc5fd97b7c2069be6a92c621237f7762ff285a494"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_FeIIAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "f83d7e6c1f16c042e4827de732d4999ffe4996028484b3a95388b2b70853181f"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "f83d7e6c1f16c042e4827de732d4999ffe4996028484b3a95388b2b70853181f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_FeIIAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119977,
+              "sha256": "4077d4ec1ab554affe7fbbb20ff94f37458521beb5b3dcf92c135e7383803284"
+            },
+            "raw": {
+              "bytes": 119977,
+              "sha256": "4077d4ec1ab554affe7fbbb20ff94f37458521beb5b3dcf92c135e7383803284"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JC.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253836,
+              "sha256": "f2845100770f86790f8290af351ae4fe3532c1fae5cc648dc2341e3c41cb540c"
+            },
+            "raw": {
+              "bytes": 253836,
+              "sha256": "f2845100770f86790f8290af351ae4fe3532c1fae5cc648dc2341e3c41cb540c"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JN.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253836,
+              "sha256": "95dd00e26eb7c667278545ef8998b35c5142695e8ad3f84ebcf14450aee34e07"
+            },
+            "raw": {
+              "bytes": 253836,
+              "sha256": "95dd00e26eb7c667278545ef8998b35c5142695e8ad3f84ebcf14450aee34e07"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_JP.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216076,
+              "sha256": "49ed90e5becfedfcd9daffee5a85591819de29af9c2915b14d6d1a4a2a41cf45"
+            },
+            "raw": {
+              "bytes": 216076,
+              "sha256": "49ed90e5becfedfcd9daffee5a85591819de29af9c2915b14d6d1a4a2a41cf45"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_MnIIAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "6bb8814b61863583c3ee9cf670d2850a8c38d1bf086a54ec4dd009eea4fe6a84"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "6bb8814b61863583c3ee9cf670d2850a8c38d1bf086a54ec4dd009eea4fe6a84"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_MnIIAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119977,
+              "sha256": "a7cc89ce77e68bb18f9020f3c1f0da49eb4c08af0173de27c19aa168d32b6c6a"
+            },
+            "raw": {
+              "bytes": 119977,
+              "sha256": "a7cc89ce77e68bb18f9020f3c1f0da49eb4c08af0173de27c19aa168d32b6c6a"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NH3AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "2a01735d7d1cbe2a925311708e02b16350b895a0109f3ab553118f2a8e6a06db"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "2a01735d7d1cbe2a925311708e02b16350b895a0109f3ab553118f2a8e6a06db"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NH3AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "0204610ea0a35b37dba497b7dbdc32b2332661d72c39901605d7fd2396bee5a5"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "0204610ea0a35b37dba497b7dbdc32b2332661d72c39901605d7fd2396bee5a5"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NO3AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "9288707adced20bd14a73f48857a246e4bb8ebcd01cbcb1c6ad9921a96fb3e78"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "9288707adced20bd14a73f48857a246e4bb8ebcd01cbcb1c6ad9921a96fb3e78"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NO3AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "e9651faa4665710df89fd47f93cb3fc100052be12b33fe39664f18f6092f46b6"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "e9651faa4665710df89fd47f93cb3fc100052be12b33fe39664f18f6092f46b6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_NSOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216961,
+              "sha256": "41eca9fd915938eefd043342cb0922ff35678fbfffd840a8883ad9aaf5d2d0f6"
+            },
+            "raw": {
+              "bytes": 216961,
+              "sha256": "41eca9fd915938eefd043342cb0922ff35678fbfffd840a8883ad9aaf5d2d0f6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PO4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "0622bba0b101148556287403f65ed8624c057f920d293989dfa6757fcf0f6f69"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "0622bba0b101148556287403f65ed8624c057f920d293989dfa6757fcf0f6f69"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PO4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "fa4f9de8687b7dc53536d408a06084e27cdbef90edc02229678356009654d485"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "fa4f9de8687b7dc53536d408a06084e27cdbef90edc02229678356009654d485"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POCG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "92a1dbd3e5424ce5a3356042e4fcc3947f7d1aaf4730461eed6b83c0a2471beb"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "92a1dbd3e5424ce5a3356042e4fcc3947f7d1aaf4730461eed6b83c0a2471beb"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POCG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "43964471664ef8acdd7a3b0790bd9fc36b2a0f3517f0721fb4e463019617d427"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "43964471664ef8acdd7a3b0790bd9fc36b2a0f3517f0721fb4e463019617d427"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PONG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "5a2667db71044baf332bca3a5a61e42d5228b7a3609061e918b2f5538a15d27f"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "5a2667db71044baf332bca3a5a61e42d5228b7a3609061e918b2f5538a15d27f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_PONG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "d69dfff2c48037763f87f01a6dd5cd7a3c575188c11d79b5a80b1e24c3e85786"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "d69dfff2c48037763f87f01a6dd5cd7a3c575188c11d79b5a80b1e24c3e85786"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POPG1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "997f30a1ac1e25780a0c592b103e1425bbb8a40d33e0b3c155db9110886a6661"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "997f30a1ac1e25780a0c592b103e1425bbb8a40d33e0b3c155db9110886a6661"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_POPG2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 253541,
+              "sha256": "a3c96362d163beb8185568f291fb7cce7e30ff1c04b64406cca42285f2f22a0f"
+            },
+            "raw": {
+              "bytes": 253541,
+              "sha256": "a3c96362d163beb8185568f291fb7cce7e30ff1c04b64406cca42285f2f22a0f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JCH4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254721,
+              "sha256": "21f90fac8f2493d66f4c7313dbd5f6212373146f47434e058fcfddb7c5095c53"
+            },
+            "raw": {
+              "bytes": 254721,
+              "sha256": "21f90fac8f2493d66f4c7313dbd5f6212373146f47434e058fcfddb7c5095c53"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JNH4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "42b76f9fbab9a16a44479e07e69439d760674ad4e3b73e903cb2f020e470d192"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "42b76f9fbab9a16a44479e07e69439d760674ad4e3b73e903cb2f020e470d192"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JNO3.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "4d1ef81e2ffb1835f3b858faaf16ee59bfb00110de3fb698e966bbec7a6c022e"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "4d1ef81e2ffb1835f3b858faaf16ee59bfb00110de3fb698e966bbec7a6c022e"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SD_JPO4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 254426,
+              "sha256": "d627f24a3bd04b418d04af8593c73d7dce93743bf876483312b717a8c8917cd0"
+            },
+            "raw": {
+              "bytes": 254426,
+              "sha256": "d627f24a3bd04b418d04af8593c73d7dce93743bf876483312b717a8c8917cd0"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SO4AerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 118797,
+              "sha256": "e2419a939645de157fc65b6287b918fc3bda7b0e53401a09328c46f370b62d15"
+            },
+            "raw": {
+              "bytes": 118797,
+              "sha256": "e2419a939645de157fc65b6287b918fc3bda7b0e53401a09328c46f370b62d15"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SO4AnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 119387,
+              "sha256": "d6c78b8dd8f845a9ea60027721e4bb0301bb926a6b6256264927b310d0ee60c6"
+            },
+            "raw": {
+              "bytes": 119387,
+              "sha256": "d6c78b8dd8f845a9ea60027721e4bb0301bb926a6b6256264927b310d0ee60c6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SOD.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 216666,
+              "sha256": "8801d4bc996ea8eb49dfd94815932e42ecb12145d0624ae34863d1c47e470668"
+            },
+            "raw": {
+              "bytes": 216666,
+              "sha256": "8801d4bc996ea8eb49dfd94815932e42ecb12145d0624ae34863d1c47e470668"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SulfideAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 120272,
+              "sha256": "ac761c20a099fe902887fbff7b7a0bf47bf9b5975981341d777a9c845294570f"
+            },
+            "raw": {
+              "bytes": 120272,
+              "sha256": "ac761c20a099fe902887fbff7b7a0bf47bf9b5975981341d777a9c845294570f"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_SulfideAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 120862,
+              "sha256": "9e0e0a7300644336342c6a249d0fe574d589233903f437505b46089566e55df6"
+            },
+            "raw": {
+              "bytes": 120862,
+              "sha256": "9e0e0a7300644336342c6a249d0fe574d589233903f437505b46089566e55df6"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TemperatureAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 114962,
+              "sha256": "f241bb49a603c3cdad2fbe55aadfe0279623f767a3ebde4c9a6f9e0aff3f9ca5"
+            },
+            "raw": {
+              "bytes": 114962,
+              "sha256": "f241bb49a603c3cdad2fbe55aadfe0279623f767a3ebde4c9a6f9e0aff3f9ca5"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TemperatureAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 114962,
+              "sha256": "db61eb3186e385eb8f226fe9275aab1664b76a0932dbb134a237450c225fb3b3"
+            },
+            "raw": {
+              "bytes": 114962,
+              "sha256": "db61eb3186e385eb8f226fe9275aab1664b76a0932dbb134a237450c225fb3b3"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 121157,
+              "sha256": "e753ff1c7642d2f8b56719e8b63eb2d354679042ef6e8075f8ee5649285c81f3"
+            },
+            "raw": {
+              "bytes": 121157,
+              "sha256": "e753ff1c7642d2f8b56719e8b63eb2d354679042ef6e8075f8ee5649285c81f3"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity_SD_KL12.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 122927,
+              "sha256": "bf0a8d5f3c67e57c74e8856e4011221752c4373ef7377f9822a54a19f1bb372e"
+            },
+            "raw": {
+              "bytes": 122927,
+              "sha256": "bf0a8d5f3c67e57c74e8856e4011221752c4373ef7377f9822a54a19f1bb372e"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_TransferVelocity_SD_W12.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 122632,
+              "sha256": "0921a428cc6e35dafa6fd9eb40ef087b317543fb8e41841035fe6e69537f0e7b"
+            },
+            "raw": {
+              "bytes": 122632,
+              "sha256": "0921a428cc6e35dafa6fd9eb40ef087b317543fb8e41841035fe6e69537f0e7b"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_pHAerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 116142,
+              "sha256": "8a946b3dc29b1638b030b070c3a004208a0e5173434fd3cd136d27cdda6c8c23"
+            },
+            "raw": {
+              "bytes": 116142,
+              "sha256": "8a946b3dc29b1638b030b070c3a004208a0e5173434fd3cd136d27cdda6c8c23"
+            }
+          },
+          "SedimentDiagenesis/Diagenesis_pHAnaerobicLayer.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 116732,
+              "sha256": "3e57ba5869878e7f9241413f5b8fda0fa8f7b04ed522fb7601c6c9fe2719025f"
+            },
+            "raw": {
+              "bytes": 116732,
+              "sha256": "3e57ba5869878e7f9241413f5b8fda0fa8f7b04ed522fb7601c6c9fe2719025f"
+            }
+          },
+          "TDG_output.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 30,
+              "sha256": "a781fc5285468e575599db4d7681e9a08ea1da3bc4538cdf65a93d93cc1baa90"
+            },
+            "raw": {
+              "bytes": 30,
+              "sha256": "a781fc5285468e575599db4d7681e9a08ea1da3bc4538cdf65a93d93cc1baa90"
+            }
+          },
+          "VOLUME_WB1.OPT": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 105975,
+              "sha256": "ea90e504b73e623530a8e28d2ef152220a944ce74333a147667614ec9a44edb0"
+            },
+            "raw": {
+              "bytes": 105975,
+              "sha256": "ea90e504b73e623530a8e28d2ef152220a944ce74333a147667614ec9a44edb0"
+            }
+          },
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "9f667805f568edc21a95426ff19a75a817574961aaca7e67590293b528d965a6"
+            }
+          },
+          "aeration.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 132599,
+              "sha256": "f6afc5a52225662f0b9092e3869c92897bd5e0a8208517571a4f9a08dc2ef857"
+            },
+            "raw": {
+              "bytes": 132599,
+              "sha256": "f6afc5a52225662f0b9092e3869c92897bd5e0a8208517571a4f9a08dc2ef857"
+            }
+          },
+          "algae_migration_debug.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 931840210,
+              "sha256": "fd4a5ed3462b43697831bd47855e11e90d12e136d265fca021d00d66426d185a"
+            },
+            "raw": {
+              "bytes": 931840210,
+              "sha256": "fd4a5ed3462b43697831bd47855e11e90d12e136d265fca021d00d66426d185a"
+            }
+          },
+          "algae_toxin_debug.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 562273,
+              "sha256": "a316a1590991acea6f9515f3cca124e77e83019791b56d436d2101cec2419571"
+            },
+            "raw": {
+              "bytes": 562273,
+              "sha256": "a316a1590991acea6f9515f3cca124e77e83019791b56d436d2101cec2419571"
+            }
+          },
+          "c_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 794908,
+              "sha256": "a05a6caafb11192b7514faf66760272de62e5f40111b9554787ffc515e0ef6c4"
+            },
+            "raw": {
+              "bytes": 794908,
+              "sha256": "a05a6caafb11192b7514faf66760272de62e5f40111b9554787ffc515e0ef6c4"
+            }
+          },
+          "cpl.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 16803422,
+              "sha256": "9a68fe0bc0339e209513cef40213a83f971717cb20eba75c5fb404d4432ec411"
+            },
+            "raw": {
+              "bytes": 16803422,
+              "sha256": "9a68fe0bc0339e209513cef40213a83f971717cb20eba75c5fb404d4432ec411"
+            }
+          },
+          "cwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 700798,
+              "sha256": "391e595e261fc369cd587fda614158e1f108a2ca1a9fc65626bea9eb99c7f46a"
+            },
+            "raw": {
+              "bytes": 700798,
+              "sha256": "391e595e261fc369cd587fda614158e1f108a2ca1a9fc65626bea9eb99c7f46a"
+            }
+          },
+          "cwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 700798,
+              "sha256": "f1b1803eca80c585e2a3398e48bc6d11a9b62fee753144d993962b846f2fb871"
+            },
+            "raw": {
+              "bytes": 700798,
+              "sha256": "f1b1803eca80c585e2a3398e48bc6d11a9b62fee753144d993962b846f2fb871"
+            }
+          },
+          "d_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 370977,
+              "sha256": "319f901413ae3f0fd8ac05cd3941492594fa203c3ea8b99d720f3ce7fb74ff9c"
+            },
+            "raw": {
+              "bytes": 370977,
+              "sha256": "319f901413ae3f0fd8ac05cd3941492594fa203c3ea8b99d720f3ce7fb74ff9c"
+            }
+          },
+          "degray.w2l": {
+            "excluded_counts": {
+              "TITLE(11)": 1
+            },
+            "normalized": {
+              "bytes": 70665007,
+              "sha256": "bfe3848211de3fa6baa156f5d8e73b0672ebbca92b52589715c8dadb3a4843b8"
+            },
+            "raw": {
+              "bytes": 70665007,
+              "sha256": "96817e6dbbe017423766b185961558c073936934295108133b44173322fc6763"
+            }
+          },
+          "dwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 329836,
+              "sha256": "d0d934b17d707c1c0145d6d2ee8e485a404f87a79fd6baebf1e616290d098c45"
+            },
+            "raw": {
+              "bytes": 329836,
+              "sha256": "d0d934b17d707c1c0145d6d2ee8e485a404f87a79fd6baebf1e616290d098c45"
+            }
+          },
+          "dwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 329836,
+              "sha256": "321e432f4b5cf938b48425ff260c157ca637e56ac5ce727d85fdddca7085a152"
+            },
+            "raw": {
+              "bytes": 329836,
+              "sha256": "321e432f4b5cf938b48425ff260c157ca637e56ac5ce727d85fdddca7085a152"
+            }
+          },
+          "envrprf_c1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 3469,
+              "sha256": "4b9459c9259868bf5640cd94e6c175560b9d974d38d088da348fdfc8650924ac"
+            },
+            "raw": {
+              "bytes": 3469,
+              "sha256": "4b9459c9259868bf5640cd94e6c175560b9d974d38d088da348fdfc8650924ac"
+            }
+          },
+          "envrprf_cd1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1744,
+              "sha256": "90eae90d965967a64c1df5af295bb6aea1ffd2e730ca74ae6642964ef35ed305"
+            },
+            "raw": {
+              "bytes": 1744,
+              "sha256": "90eae90d965967a64c1df5af295bb6aea1ffd2e730ca74ae6642964ef35ed305"
+            }
+          },
+          "envrprf_t_1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 523,
+              "sha256": "51a14bfec9f20e5864ab4fa3de6e8cb2eb5a50e62628810ff404d8c36ac321c4"
+            },
+            "raw": {
+              "bytes": 523,
+              "sha256": "51a14bfec9f20e5864ab4fa3de6e8cb2eb5a50e62628810ff404d8c36ac321c4"
+            }
+          },
+          "fish_habitat_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654359,
+              "sha256": "2f3b0a3dd96a09f705bd79f41ccc6d3515a7daef23f69c5d523f04c6931f9436"
+            },
+            "raw": {
+              "bytes": 654359,
+              "sha256": "2f3b0a3dd96a09f705bd79f41ccc6d3515a7daef23f69c5d523f04c6931f9436"
+            }
+          },
+          "fish_habitat_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654362,
+              "sha256": "a96e48eaeee6139a4884a172519ddc1de6ff54411a33767cd7c252444ec2f889"
+            },
+            "raw": {
+              "bytes": 654362,
+              "sha256": "a96e48eaeee6139a4884a172519ddc1de6ff54411a33767cd7c252444ec2f889"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 9332,
+              "sha256": "536e9ca7c84d2c1327cf7d44c3640701d6ea08f345114d0c61eb49b72a9474f6"
+            },
+            "raw": {
+              "bytes": 9332,
+              "sha256": "536e9ca7c84d2c1327cf7d44c3640701d6ea08f345114d0c61eb49b72a9474f6"
+            }
+          },
+          "flx.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1166906,
+              "sha256": "76f8ce9b4cf9cc731c9799f02c7501e75dee4fd39616282dbc62df8664f296da"
+            },
+            "raw": {
+              "bytes": 1166906,
+              "sha256": "76f8ce9b4cf9cc731c9799f02c7501e75dee4fd39616282dbc62df8664f296da"
+            }
+          },
+          "habitat.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 654336,
+              "sha256": "59093d9caa5e54a4c682b0f0ef86eee891f69a0ccc092511f81386a5ec5c2a40"
+            },
+            "raw": {
+              "bytes": 654336,
+              "sha256": "59093d9caa5e54a4c682b0f0ef86eee891f69a0ccc092511f81386a5ec5c2a40"
+            }
+          },
+          "kflux_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 2208,
+              "sha256": "904e2354a4b8553359a17adda836189049254e806af743f9963eacb4594025d7"
+            },
+            "raw": {
+              "bytes": 2208,
+              "sha256": "904e2354a4b8553359a17adda836189049254e806af743f9963eacb4594025d7"
+            }
+          },
+          "massbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 22935,
+              "sha256": "2255d1c1bfabc5a04d4a81b85d18ce8ad8a0bf49c0a88603e47bbdcb97ec16a6"
+            },
+            "raw": {
+              "bytes": 22935,
+              "sha256": "2255d1c1bfabc5a04d4a81b85d18ce8ad8a0bf49c0a88603e47bbdcb97ec16a6"
+            }
+          },
+          "prf.opt": {
+            "excluded_counts": {
+              "model_clock": 1
+            },
+            "normalized": {
+              "bytes": 3853131,
+              "sha256": "69cd31c930630badbc89756e1167e7031d47c484cbb9808ed16b50142f0e5038"
+            },
+            "raw": {
+              "bytes": 3853141,
+              "sha256": "5163273940a6a11077aecaed3d309a27d8cfaf92ae08e2da2c812ed5a56c3db4"
+            }
+          },
+          "q_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 167898,
+              "sha256": "6be0b4f350e40124a66f187e87adee0965f4654e62a12e5248603c559bfb42df"
+            },
+            "raw": {
+              "bytes": 167898,
+              "sha256": "6be0b4f350e40124a66f187e87adee0965f4654e62a12e5248603c559bfb42df"
+            }
+          },
+          "qwo_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 76636,
+              "sha256": "d045e5b1ef6ccdd95f9b84b6eff093994c0bf48b07074945082dbc3515756be1"
+            },
+            "raw": {
+              "bytes": 76636,
+              "sha256": "d045e5b1ef6ccdd95f9b84b6eff093994c0bf48b07074945082dbc3515756be1"
+            }
+          },
+          "qwo_layers_31_.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 516773,
+              "sha256": "cd86aa444e036201a2fbe1c3ec7fffa5f94c623c7d83bc09c0c42ec83251fbc7"
+            },
+            "raw": {
+              "bytes": 516773,
+              "sha256": "cd86aa444e036201a2fbe1c3ec7fffa5f94c623c7d83bc09c0c42ec83251fbc7"
+            }
+          },
+          "qwo_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 76636,
+              "sha256": "66b58a08654ce3cbee27365662d00a4c4397551bc4b2ce9d156ba771581fe923"
+            },
+            "raw": {
+              "bytes": 76636,
+              "sha256": "66b58a08654ce3cbee27365662d00a4c4397551bc4b2ce9d156ba771581fe923"
+            }
+          },
+          "snp.opt": {
+            "excluded_counts": {
+              "cpu_runtime": 1,
+              "model_clock": 1034,
+              "termination_clock": 1
+            },
+            "normalized": {
+              "bytes": 11009856,
+              "sha256": "fbbef3861e9308a889407e5ec298daba0c9d280afebd71570d4a2313c0a6aa28"
+            },
+            "raw": {
+              "bytes": 11020200,
+              "sha256": "12e4e96339fe34704a998c296ef51d879ff3831b0cab5b1da3ad408cfad0217d"
+            }
+          },
+          "spr.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1482994,
+              "sha256": "c910f572c1889e4d3cb5215088c3fe1423a0a9c540f6d194d7af3e46a26296ae"
+            },
+            "raw": {
+              "bytes": 1482994,
+              "sha256": "c910f572c1889e4d3cb5215088c3fe1423a0a9c540f6d194d7af3e46a26296ae"
+            }
+          },
+          "spr_volw.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 35158,
+              "sha256": "9396ae2fce444469888d119ea748e2a6ee419e0e784a2240dd1e31f2f9a1d575"
+            },
+            "raw": {
+              "bytes": 35158,
+              "sha256": "9396ae2fce444469888d119ea748e2a6ee419e0e784a2240dd1e31f2f9a1d575"
+            }
+          },
+          "str_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 106051,
+              "sha256": "8685b09d6814467aa22cd37573bd1447ee888b1dc5ffff4c918505db063ffa06"
+            },
+            "raw": {
+              "bytes": 106051,
+              "sha256": "8685b09d6814467aa22cd37573bd1447ee888b1dc5ffff4c918505db063ffa06"
+            }
+          },
+          "surfvolwtavg.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 715820,
+              "sha256": "270f08da81a80331f52cdfb56c08f062732fe9f0ba14ccfb1d4ad6ddda7ef80a"
+            },
+            "raw": {
+              "bytes": 715820,
+              "sha256": "270f08da81a80331f52cdfb56c08f062732fe9f0ba14ccfb1d4ad6ddda7ef80a"
+            }
+          },
+          "t_wdo_31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 144369,
+              "sha256": "ecc535810041a4cbda82a4234e3b337ae39430be9e888a61afbff4ee6480c72f"
+            },
+            "raw": {
+              "bytes": 144369,
+              "sha256": "ecc535810041a4cbda82a4234e3b337ae39430be9e888a61afbff4ee6480c72f"
+            }
+          },
+          "tsr_1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 2914592,
+              "sha256": "1975c0bede8799e57225f865fd92c7d497599190808d760318cbdcf4a20ee919"
+            },
+            "raw": {
+              "bytes": 2914592,
+              "sha256": "1975c0bede8799e57225f865fd92c7d497599190808d760318cbdcf4a20ee919"
+            }
+          },
+          "two_gate1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 64858,
+              "sha256": "5304d208a4b1d605958fd6f826e7449e7b7e52314893a2f28ea325fd9c806d0b"
+            },
+            "raw": {
+              "bytes": 64858,
+              "sha256": "5304d208a4b1d605958fd6f826e7449e7b7e52314893a2f28ea325fd9c806d0b"
+            }
+          },
+          "two_str1_seg31.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 64858,
+              "sha256": "adeae5c6e169af52b1edde1d5a33bacda889c81acd2c2dc46aacffabef4e3172"
+            },
+            "raw": {
+              "bytes": 64858,
+              "sha256": "adeae5c6e169af52b1edde1d5a33bacda889c81acd2c2dc46aacffabef4e3172"
+            }
+          },
+          "volwgtavg.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 618613,
+              "sha256": "5475a4db78ad614afdf119f2cf2dbdc0efdd10f5454f41f8578e965258fcfc2b"
+            },
+            "raw": {
+              "bytes": 618613,
+              "sha256": "5475a4db78ad614afdf119f2cf2dbdc0efdd10f5454f41f8578e965258fcfc2b"
+            }
+          },
+          "wl.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 830175,
+              "sha256": "1c6b78b70e3ccb277fcbd9b3866681d900b4353afb6bf1e08bfd35c01f7f38e5"
+            },
+            "raw": {
+              "bytes": 830175,
+              "sha256": "1c6b78b70e3ccb277fcbd9b3866681d900b4353afb6bf1e08bfd35c01f7f38e5"
+            }
+          }
+        }
+      },
+      "detroit": {
+        "evidence": {
+          "capture_sha256": "21f9591b79584dad29b17120e86c2bc6bf6517fca4a58dff7e1bcc08914bcf23",
+          "description": "Accepted five-site invalid-only experiment / detroit",
+          "reference_executable_sha256": "61348af88003b33f708947867f77eb5adb89169916004f0843a483678e7c7a66"
+        },
+        "exit_code": 0,
+        "inputs": {
+          ".\\InputFiles\\2002_Blowout_Q.npt": {
+            "bytes": 313678,
+            "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+          },
+          ".\\InputFiles\\2002_Blowout_T.npt": {
+            "bytes": 318823,
+            "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+          },
+          ".\\InputFiles\\2002_Blowout_wq.npt": {
+            "bytes": 594819,
+            "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+          },
+          ".\\InputFiles\\2002_BoxCan_Q_est.npt": {
+            "bytes": 313739,
+            "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+          },
+          ".\\InputFiles\\2002_BoxCan_T_est.npt": {
+            "bytes": 466303,
+            "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+          },
+          ".\\InputFiles\\2002_BoxCan_estBBr_wq.npt": {
+            "bytes": 594858,
+            "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+          },
+          ".\\InputFiles\\2002_BreiBu_Q.npt": {
+            "bytes": 311497,
+            "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+          },
+          ".\\InputFiles\\2002_BreiBu_T.npt": {
+            "bytes": 319215,
+            "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+          },
+          ".\\InputFiles\\2002_BreiBu_wq.npt": {
+            "bytes": 595027,
+            "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+          },
+          ".\\InputFiles\\2002_French_Q.npt": {
+            "bytes": 298455,
+            "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+          },
+          ".\\InputFiles\\2002_French_T.npt": {
+            "bytes": 466339,
+            "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+          },
+          ".\\InputFiles\\2002_French_wq.npt": {
+            "bytes": 595674,
+            "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+          },
+          ".\\InputFiles\\2002_Kinney_Q_est.npt": {
+            "bytes": 313735,
+            "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+          },
+          ".\\InputFiles\\2002_Kinney_T_est.npt": {
+            "bytes": 466299,
+            "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+          },
+          ".\\InputFiles\\2002_Kinney_estBBr_wq.npt": {
+            "bytes": 594859,
+            "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+          },
+          ".\\InputFiles\\2002_NSant_Q_corr.npt": {
+            "bytes": 1156201,
+            "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+          },
+          ".\\InputFiles\\2002_NSant_T.npt": {
+            "bytes": 318432,
+            "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+          },
+          ".\\InputFiles\\2002_NSant_wq.npt": {
+            "bytes": 595376,
+            "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+          },
+          ".\\InputFiles\\2002_pre_detroit.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit2.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit3.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          ".\\InputFiles\\2002_pre_detroit4.npt": {
+            "bytes": 6683,
+            "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+          },
+          ".\\InputFiles\\2002_qdt_br1.npt": {
+            "bytes": 675,
+            "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+          },
+          ".\\InputFiles\\2002_qdt_br2.npt": {
+            "bytes": 675,
+            "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+          },
+          ".\\InputFiles\\2002_qdt_br3.npt": {
+            "bytes": 675,
+            "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+          },
+          ".\\InputFiles\\2002_qdt_br4.npt": {
+            "bytes": 675,
+            "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+          },
+          ".\\InputFiles\\2002_qdt_wq1.npt": {
+            "bytes": 595397,
+            "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+          },
+          ".\\InputFiles\\2002_qdt_wq2.npt": {
+            "bytes": 595055,
+            "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+          },
+          ".\\InputFiles\\2002_qdt_wq3.npt": {
+            "bytes": 594847,
+            "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+          },
+          ".\\InputFiles\\2002_qdt_wq4BBr.npt": {
+            "bytes": 594899,
+            "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+          },
+          ".\\InputFiles\\2002_tdt_br1.npt": {
+            "bytes": 318439,
+            "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+          },
+          ".\\InputFiles\\2002_tdt_br2.npt": {
+            "bytes": 319231,
+            "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+          },
+          ".\\InputFiles\\2002_tdt_br3.npt": {
+            "bytes": 318849,
+            "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+          },
+          ".\\InputFiles\\2002_tdt_br4F.npt": {
+            "bytes": 466268,
+            "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+          },
+          ".\\InputFiles\\2002_tpr_detroit.npt": {
+            "bytes": 6696,
+            "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+          },
+          ".\\InputFiles\\2002_tpr_detroit2.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          ".\\InputFiles\\2002_tpr_detroit3.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          ".\\InputFiles\\2002_tpr_detroit4.npt": {
+            "bytes": 6693,
+            "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+          },
+          ".\\InputFiles\\bth1.csv": {
+            "bytes": 18324,
+            "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+          },
+          ".\\InputFiles\\metDetroit2002.csv": {
+            "bytes": 297114,
+            "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+          },
+          ".\\InputFiles\\q3.npt": {
+            "bytes": 505619,
+            "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+          },
+          ".\\InputFiles\\qwd_dss.npt": {
+            "bytes": 227231,
+            "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+          },
+          ".\\InputFiles\\shade.npt": {
+            "bytes": 7545,
+            "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+          },
+          ".\\InputFiles\\wsc.npt": {
+            "bytes": 703,
+            "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+          },
+          "InputFiles/2002_Blowout_Q.npt": {
+            "bytes": 313678,
+            "sha256": "8e9c348db383736ae11f2256d10a76ef53c96b75bd4ed38631b922668b4cfa56"
+          },
+          "InputFiles/2002_Blowout_T.npt": {
+            "bytes": 318823,
+            "sha256": "22958942d005c606e27c1dd205413545cb724786fc326493cb433bffe4528b52"
+          },
+          "InputFiles/2002_Blowout_wq.npt": {
+            "bytes": 594819,
+            "sha256": "d36e8560a888c624155ff45956ef0e9d4386d0337c617362462a0cc20bd047a7"
+          },
+          "InputFiles/2002_BoxCan_Q_est.npt": {
+            "bytes": 313739,
+            "sha256": "f761c40c338a963ae493db495b518d6bfb23f3ac8ba857ed4fba89bf99c0dd01"
+          },
+          "InputFiles/2002_BoxCan_T_est.npt": {
+            "bytes": 466303,
+            "sha256": "f69b16dce36ad7e1b175085e95bee011d1f6a758af27568584a4574701fccb2b"
+          },
+          "InputFiles/2002_BoxCan_estBBr_wq.npt": {
+            "bytes": 594858,
+            "sha256": "2dfc701bb9ad544ff0f3d3ffba4de6a904f95e82a201039e533522f21c2f149a"
+          },
+          "InputFiles/2002_BreiBu_Q.npt": {
+            "bytes": 311497,
+            "sha256": "78aa97a7338167cc3ade8abe47e97355a5fb0175153a1609269fb7475d2839d4"
+          },
+          "InputFiles/2002_BreiBu_T.npt": {
+            "bytes": 319215,
+            "sha256": "d76611cc94704ee105f357c1f430f2345ac8a6bdbb863f488ddd9136fae3b29e"
+          },
+          "InputFiles/2002_BreiBu_wq.npt": {
+            "bytes": 595027,
+            "sha256": "d13b54bc2aac673949f2049c527b4139f704df2ccbcbeed9e07e501a8c8332c0"
+          },
+          "InputFiles/2002_French_Q.npt": {
+            "bytes": 298455,
+            "sha256": "e5b11040babdf2ac9a41094991f7d52ee8dcfa7d8cdb8e5a4494d14b9313e7ad"
+          },
+          "InputFiles/2002_French_T.npt": {
+            "bytes": 466339,
+            "sha256": "96d6b28c32b605acd4516187993ce4c128a7f4cd656f4946e9720e1d7179c8a1"
+          },
+          "InputFiles/2002_French_wq.npt": {
+            "bytes": 595674,
+            "sha256": "f5e3aaedabbf4c05eeec0d49fc8a5b8123c8fd3a4834c4f63d9928ddd39cb39d"
+          },
+          "InputFiles/2002_Kinney_Q_est.npt": {
+            "bytes": 313735,
+            "sha256": "7224e3ac1a0e84439b8af5ac8b93e22d92e830f5eb4c0622bac3fc2ce4082c95"
+          },
+          "InputFiles/2002_Kinney_T_est.npt": {
+            "bytes": 466299,
+            "sha256": "f0af35b472fe09a345667092db9c0c80716cf5a03d97396bc61e2584b5f34855"
+          },
+          "InputFiles/2002_Kinney_estBBr_wq.npt": {
+            "bytes": 594859,
+            "sha256": "09487a3574e4db6ffea84e00f02da415da8e22a1eefd267276583ecbfec7d447"
+          },
+          "InputFiles/2002_NSant_Q.npt": {
+            "bytes": 315342,
+            "sha256": "674d4c7c1a3e54e590ebe5d834e667407869cd62a412a330e69c71f13ab88470"
+          },
+          "InputFiles/2002_NSant_Q_corr.npt": {
+            "bytes": 1156201,
+            "sha256": "6921e80ce38f6ab38d1d6dac73ca4dd35df950dd941355acf36d0fdd7eca2304"
+          },
+          "InputFiles/2002_NSant_T.npt": {
+            "bytes": 318432,
+            "sha256": "4f6be800dde08ceeabe3bcb00e8387f7316b815e45070b56a64b64d373576dc0"
+          },
+          "InputFiles/2002_NSant_wq.npt": {
+            "bytes": 595376,
+            "sha256": "c60e0bbc1456eaa2212f18b8971d9a5b750365811bf3d2def03ea85e93d92dd6"
+          },
+          "InputFiles/2002_detroit_met.npt": {
+            "bytes": 505778,
+            "sha256": "5428631c7a193f716f08fb2ad1ba453f5bd7434d85b39311b1481b39a4972dd0"
+          },
+          "InputFiles/2002_pre_detroit.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit2.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit3.npt": {
+            "bytes": 6681,
+            "sha256": "1a0a88f97ab284add1cb6c994bede2ff5208673a53196a5358aa087e53f61933"
+          },
+          "InputFiles/2002_pre_detroit4.npt": {
+            "bytes": 6683,
+            "sha256": "c862e0c4a4c7b34449fba5b2e50da480ea75e1dc7b40d9547732c462ab1e201e"
+          },
+          "InputFiles/2002_qdt_br1.npt": {
+            "bytes": 675,
+            "sha256": "668fbdd370b6bebd8df6726e872e0228ae408b48a200718d1ea59e031940a6d1"
+          },
+          "InputFiles/2002_qdt_br2.npt": {
+            "bytes": 675,
+            "sha256": "c128da988c7702403eac3bf217f784787cfa83ebe1a77ad7cdd7deb4ea9fff1e"
+          },
+          "InputFiles/2002_qdt_br3.npt": {
+            "bytes": 675,
+            "sha256": "bb092d07511636e37e1ca7606b703518520a5a32e321d7a9305d27caefab367f"
+          },
+          "InputFiles/2002_qdt_br4.npt": {
+            "bytes": 675,
+            "sha256": "f903a01655fd4b36a738f11ccc69129375ec3d6dcff977f1c0a7a0f5c79dc5fe"
+          },
+          "InputFiles/2002_qdt_wq1.npt": {
+            "bytes": 595397,
+            "sha256": "83cc4d74537501a0efdb4cd459ecf30cfaca8c446b93514cd8ee7c529b89f490"
+          },
+          "InputFiles/2002_qdt_wq2.npt": {
+            "bytes": 595055,
+            "sha256": "02b1b22656fc87185a8ac7de22ced634e1e4a7b6f9c5b365931ca9530f522143"
+          },
+          "InputFiles/2002_qdt_wq3.npt": {
+            "bytes": 594847,
+            "sha256": "008764baf9f3bf290c72238a6034a6e1a37e9d8e5e13e47732887eaf064326cd"
+          },
+          "InputFiles/2002_qdt_wq4BBr.npt": {
+            "bytes": 594899,
+            "sha256": "8ed931943ca98ffbee846ec93c74d8205cf8788f707e77173078e2d0c1bb7efa"
+          },
+          "InputFiles/2002_qwd.npt": {
+            "bytes": 227801,
+            "sha256": "3b601d043a3e6bd366a522629ec9b294ccf625289997fb76fb2765ebccd00e3d"
+          },
+          "InputFiles/2002_tdt_br1.npt": {
+            "bytes": 318439,
+            "sha256": "da60ea94505ab36e69ad7675c84f6c2b8f5362a82fd0570e035273c8371478f0"
+          },
+          "InputFiles/2002_tdt_br2.npt": {
+            "bytes": 319231,
+            "sha256": "4ff397afe982de68e1b991fe833226ab30056b19e86631833b106eb8a054f405"
+          },
+          "InputFiles/2002_tdt_br3.npt": {
+            "bytes": 318849,
+            "sha256": "ed7a4007fcaecf3582114bc6128b247d6d14fb8344890e0fdb73237730a76ffb"
+          },
+          "InputFiles/2002_tdt_br4F.npt": {
+            "bytes": 466268,
+            "sha256": "0a45f3679cf4350aaf280be3abb68ec8964a26f4948fef353beaf8c1bb40d347"
+          },
+          "InputFiles/2002_tpr_detroit.npt": {
+            "bytes": 6696,
+            "sha256": "ce7ba0ad876396b1b31581d717d35a544fb5cf5c9eae440bf534c88d6006f413"
+          },
+          "InputFiles/2002_tpr_detroit2.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          "InputFiles/2002_tpr_detroit3.npt": {
+            "bytes": 6694,
+            "sha256": "0d0e3bb12331bcdbdf274177a012ae1e6ad4560d4338329ccad75d7bc5253676"
+          },
+          "InputFiles/2002_tpr_detroit4.npt": {
+            "bytes": 6693,
+            "sha256": "cb552c7bc7de0443ce01b35a0484d923e8a249a4a470d7e099991a80d7ea50e1"
+          },
+          "InputFiles/bth1.csv": {
+            "bytes": 18324,
+            "sha256": "09eac2e0339a577887c70cc25a7a51edc2a28171d307bb5749ed5677a17090f6"
+          },
+          "InputFiles/metDetroit2002.csv": {
+            "bytes": 297114,
+            "sha256": "fafd3cc1f45664cd0abde868e01b3c09c888cd4156b5b8afccc9acdf04e2d922"
+          },
+          "InputFiles/q3.npt": {
+            "bytes": 505619,
+            "sha256": "e46c3b5fa713bae61e3cdcfbbffd9b767503f868a9462d7f0602516bcbb99db9"
+          },
+          "InputFiles/qwd_dss.npt": {
+            "bytes": 227231,
+            "sha256": "8329d0030970edc277c70ed7118a1ee99c3da82cdbfb1c6ae68f122d94fb4bda"
+          },
+          "InputFiles/shade.npt": {
+            "bytes": 7545,
+            "sha256": "26a6268201339dd629f641ab8258560ed6d426a7308df066ec0f767268d71761"
+          },
+          "InputFiles/wsc.npt": {
+            "bytes": 703,
+            "sha256": "3d80849bd9216805fc8d4d63c182a296cd8bddaf84d0fc67026064fed349b9f3"
+          },
+          "w2_con.csv": {
+            "bytes": 395805,
+            "sha256": "6d6240c0a476a94e3d5d5aa2f8370ee541dd7959fe201dce44658bea85800e41"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2235,
+            "sha256": "60dd938c9cc8e67b9f7f1fee7407f58b0b25ad4e905430a03d8615060823f2ff"
+          },
+          "w2_habitat.npt": {
+            "bytes": 982,
+            "sha256": "82f51037013be59b357d67518d120c4b00402041ff7786dfe3885a7a303a7d65"
+          }
+        },
+        "outputs": {
+          ".\\HabitatFiles\\habitat.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765582,
+              "sha256": "1246ddbc2b0efff05e9306a319da63a91ec91cb6a1c04d0d606cf1239243872f"
+            },
+            "raw": {
+              "bytes": 765582,
+              "sha256": "1246ddbc2b0efff05e9306a319da63a91ec91cb6a1c04d0d606cf1239243872f"
+            }
+          },
+          "Detroit.w2l": {
+            "excluded_counts": {
+              "TITLE(11)": 1
+            },
+            "normalized": {
+              "bytes": 238064518,
+              "sha256": "269df7e4e1fa6bd45a40145f4fb5967117f5eeb30c4263c5e593db38b519716d"
+            },
+            "raw": {
+              "bytes": 238064518,
+              "sha256": "92010a9e5e9426f71849568cb71816f81a49ef3009174b61fbb5c891a403afd4"
+            }
+          },
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "9f667805f568edc21a95426ff19a75a817574961aaca7e67590293b528d965a6"
+            }
+          },
+          "c_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 284104,
+              "sha256": "029dfa0f7fdf04b215b54ec8bef38abfaea94a44349867be8a2806766a20ef3c"
+            },
+            "raw": {
+              "bytes": 284104,
+              "sha256": "029dfa0f7fdf04b215b54ec8bef38abfaea94a44349867be8a2806766a20ef3c"
+            }
+          },
+          "cpl1.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 8386247,
+              "sha256": "5895e4b41dadf90272ec6134d322c9914ce20e140332e66a3ecc5635dc91462a"
+            },
+            "raw": {
+              "bytes": 8386247,
+              "sha256": "5895e4b41dadf90272ec6134d322c9914ce20e140332e66a3ecc5635dc91462a"
+            }
+          },
+          "cwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 255042,
+              "sha256": "8da3eabe2c068de15ed5c3099ae0b7810d77900271f95f1896a7612ac2ec4abc"
+            },
+            "raw": {
+              "bytes": 255042,
+              "sha256": "8da3eabe2c068de15ed5c3099ae0b7810d77900271f95f1896a7612ac2ec4abc"
+            }
+          },
+          "cwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 255042,
+              "sha256": "55c377ee7bf88240fde4a7597580a092772d2510e7dda8b492d29f33e0d31da0"
+            },
+            "raw": {
+              "bytes": 255042,
+              "sha256": "55c377ee7bf88240fde4a7597580a092772d2510e7dda8b492d29f33e0d31da0"
+            }
+          },
+          "cwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 255042,
+              "sha256": "21235d1144388c56f2b8dd97d226617bf90e99dc3730eaf3efb7ee1752c4f479"
+            },
+            "raw": {
+              "bytes": 255042,
+              "sha256": "21235d1144388c56f2b8dd97d226617bf90e99dc3730eaf3efb7ee1752c4f479"
+            }
+          },
+          "d_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 167565,
+              "sha256": "7882b3ff6307fc896fc4685e38fb90c88072d6ec487081e022e8822c0adbe97c"
+            },
+            "raw": {
+              "bytes": 167565,
+              "sha256": "7882b3ff6307fc896fc4685e38fb90c88072d6ec487081e022e8822c0adbe97c"
+            }
+          },
+          "dwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 153062,
+              "sha256": "98ee348209b8e35455cb5cfca5265a1b9c19fa29892214022462c6c0f7f80bff"
+            },
+            "raw": {
+              "bytes": 153062,
+              "sha256": "98ee348209b8e35455cb5cfca5265a1b9c19fa29892214022462c6c0f7f80bff"
+            }
+          },
+          "dwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 153062,
+              "sha256": "31f89ebd67a2627ff865da8d9c4d829018881ccd7f7e974e2def72ce77fd5ceb"
+            },
+            "raw": {
+              "bytes": 153062,
+              "sha256": "31f89ebd67a2627ff865da8d9c4d829018881ccd7f7e974e2def72ce77fd5ceb"
+            }
+          },
+          "dwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 153062,
+              "sha256": "694293c272ebd699021d9119f4bbfd952d03762fa1211e24db67c5c69f207538"
+            },
+            "raw": {
+              "bytes": 153062,
+              "sha256": "694293c272ebd699021d9119f4bbfd952d03762fa1211e24db67c5c69f207538"
+            }
+          },
+          "envrprf_c1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 3469,
+              "sha256": "7e7cd231bb4efd7a1d7a80d808eeefede3f6abbc7b932985b0e60b0af4bf8306"
+            },
+            "raw": {
+              "bytes": 3469,
+              "sha256": "7e7cd231bb4efd7a1d7a80d808eeefede3f6abbc7b932985b0e60b0af4bf8306"
+            }
+          },
+          "envrprf_cd1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1744,
+              "sha256": "6f6794fee5adfa5a02a8a66764aedabcab08402c4784b8eeb0c0c98575968c84"
+            },
+            "raw": {
+              "bytes": 1744,
+              "sha256": "6f6794fee5adfa5a02a8a66764aedabcab08402c4784b8eeb0c0c98575968c84"
+            }
+          },
+          "envrprf_t_1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 523,
+              "sha256": "5d52fce22c4deb4328cd6c1746604699c90b7304e0d368ddf7c3653f53dae011"
+            },
+            "raw": {
+              "bytes": 523,
+              "sha256": "5d52fce22c4deb4328cd6c1746604699c90b7304e0d368ddf7c3653f53dae011"
+            }
+          },
+          "fish_habitat_br1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765605,
+              "sha256": "243d5460769b1fc1464f21f18a2da00437c24b00ff54149fefe1bbf3506ed138"
+            },
+            "raw": {
+              "bytes": 765605,
+              "sha256": "243d5460769b1fc1464f21f18a2da00437c24b00ff54149fefe1bbf3506ed138"
+            }
+          },
+          "fish_habitat_br2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765605,
+              "sha256": "3eb09ec850f02ec461fc70b853bb3f8b8a8f46370f063e05c3d0606b36085eb7"
+            },
+            "raw": {
+              "bytes": 765605,
+              "sha256": "3eb09ec850f02ec461fc70b853bb3f8b8a8f46370f063e05c3d0606b36085eb7"
+            }
+          },
+          "fish_habitat_br3.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765605,
+              "sha256": "481c8880c7618af1874da0a44452767c9cc38402f7bbc443e65f7f2d5395cb8e"
+            },
+            "raw": {
+              "bytes": 765605,
+              "sha256": "481c8880c7618af1874da0a44452767c9cc38402f7bbc443e65f7f2d5395cb8e"
+            }
+          },
+          "fish_habitat_br4.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765605,
+              "sha256": "7907812f4354bffd4119c60de034459bc38d3cfdd5666b4e929f1e618d133bd2"
+            },
+            "raw": {
+              "bytes": 765605,
+              "sha256": "7907812f4354bffd4119c60de034459bc38d3cfdd5666b4e929f1e618d133bd2"
+            }
+          },
+          "fish_habitat_wb1.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 765608,
+              "sha256": "d3e2332f8f5c247beccc5c370cbc693b7b1a8622065d1669b3cce375849008f7"
+            },
+            "raw": {
+              "bytes": 765608,
+              "sha256": "d3e2332f8f5c247beccc5c370cbc693b7b1a8622065d1669b3cce375849008f7"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 5694,
+              "sha256": "3adf420e14f9283e97d63ff4fd1b6529fb70ad2cd36d1c332d090196f8410170"
+            },
+            "raw": {
+              "bytes": 5694,
+              "sha256": "3adf420e14f9283e97d63ff4fd1b6529fb70ad2cd36d1c332d090196f8410170"
+            }
+          },
+          "q_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 247735,
+              "sha256": "377ea5215f89d0c68bf40e30f30562a30cdb13962cd0faff462fc8e4af4aacde"
+            },
+            "raw": {
+              "bytes": 247735,
+              "sha256": "377ea5215f89d0c68bf40e30f30562a30cdb13962cd0faff462fc8e4af4aacde"
+            }
+          },
+          "qwo_layers_11_.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1222102,
+              "sha256": "2dce41988087ef376a2eda619285a7f42816558b3e03db5a4ee768b389dedc8c"
+            },
+            "raw": {
+              "bytes": 1222102,
+              "sha256": "2dce41988087ef376a2eda619285a7f42816558b3e03db5a4ee768b389dedc8c"
+            }
+          },
+          "qwo_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 94784,
+              "sha256": "54626c6c383146aed4c54fbf14c6b2260b56b6641dede7f1331d93ddedf7df72"
+            },
+            "raw": {
+              "bytes": 94784,
+              "sha256": "54626c6c383146aed4c54fbf14c6b2260b56b6641dede7f1331d93ddedf7df72"
+            }
+          },
+          "qwo_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 94784,
+              "sha256": "7eeb306f79d6eff5c52657dd796dd013f27bd0875aa0e1196a720f22cb089016"
+            },
+            "raw": {
+              "bytes": 94784,
+              "sha256": "7eeb306f79d6eff5c52657dd796dd013f27bd0875aa0e1196a720f22cb089016"
+            }
+          },
+          "qwo_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 94784,
+              "sha256": "4e0075f8301bb3d53ace51d9000ba3fdb3e7be884c78a0ec2d8fcde439055b1e"
+            },
+            "raw": {
+              "bytes": 94784,
+              "sha256": "4e0075f8301bb3d53ace51d9000ba3fdb3e7be884c78a0ec2d8fcde439055b1e"
+            }
+          },
+          "snp1.opt": {
+            "excluded_counts": {
+              "cpu_runtime": 1,
+              "model_clock": 3285,
+              "termination_clock": 1
+            },
+            "normalized": {
+              "bytes": 43935513,
+              "sha256": "7a948c45c8ca0ad8531f4c3757ab0ccc0af247e5213199bbe16b4f75e79f29c8"
+            },
+            "raw": {
+              "bytes": 43968366,
+              "sha256": "73532885a74cf902b5a54e46ebd67be00d9fe4718a5ac79e0de527c2ffcf1da2"
+            }
+          },
+          "spr1.opt": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1892054,
+              "sha256": "2cb6eae7c6e1d8dfbf0de8c75f0ab679897e892249dad0050f488879dc66507e"
+            },
+            "raw": {
+              "bytes": 1892054,
+              "sha256": "2cb6eae7c6e1d8dfbf0de8c75f0ab679897e892249dad0050f488879dc66507e"
+            }
+          },
+          "t_wdo_11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 211340,
+              "sha256": "69331fbc72f174a270d3069b9a3754c479b1be3f814858799994c5bf80b9da9c"
+            },
+            "raw": {
+              "bytes": 211340,
+              "sha256": "69331fbc72f174a270d3069b9a3754c479b1be3f814858799994c5bf80b9da9c"
+            }
+          },
+          "tsr_1_seg9.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1201857,
+              "sha256": "284080d2b8b900e0e2b623edfc46d225770b7e5f3b78e2ad02afdff11ac831a2"
+            },
+            "raw": {
+              "bytes": 1201857,
+              "sha256": "284080d2b8b900e0e2b623edfc46d225770b7e5f3b78e2ad02afdff11ac831a2"
+            }
+          },
+          "tsr_2_seg10.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1201857,
+              "sha256": "7b57be0615f51a3ae13558a8032c0ceda46d1bfaf62626a5fd0a00b5c7984ff0"
+            },
+            "raw": {
+              "bytes": 1201857,
+              "sha256": "7b57be0615f51a3ae13558a8032c0ceda46d1bfaf62626a5fd0a00b5c7984ff0"
+            }
+          },
+          "tsr_3_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1201857,
+              "sha256": "85c82eca6e9bd272695b4fa36efabc77da3adb8be504dbef0f676a7b5b2819c8"
+            },
+            "raw": {
+              "bytes": 1201857,
+              "sha256": "85c82eca6e9bd272695b4fa36efabc77da3adb8be504dbef0f676a7b5b2819c8"
+            }
+          },
+          "tsr_4_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 1201857,
+              "sha256": "85c82eca6e9bd272695b4fa36efabc77da3adb8be504dbef0f676a7b5b2819c8"
+            },
+            "raw": {
+              "bytes": 1201857,
+              "sha256": "85c82eca6e9bd272695b4fa36efabc77da3adb8be504dbef0f676a7b5b2819c8"
+            }
+          },
+          "two_str1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 80214,
+              "sha256": "1eed80b2f7097fbdece6b36abe71f9b7f43c699ae4f0db0b12bb8dc8a32f1e0c"
+            },
+            "raw": {
+              "bytes": 80214,
+              "sha256": "1eed80b2f7097fbdece6b36abe71f9b7f43c699ae4f0db0b12bb8dc8a32f1e0c"
+            }
+          },
+          "two_wd1_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 80214,
+              "sha256": "3c559977173563e3498c33db18263e88d344da7667c76c0269bd2427cedc03d6"
+            },
+            "raw": {
+              "bytes": 80214,
+              "sha256": "3c559977173563e3498c33db18263e88d344da7667c76c0269bd2427cedc03d6"
+            }
+          },
+          "two_wd2_seg11.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 80214,
+              "sha256": "4084a92d8a2324ed2cec29f5bbd0c835dc5c5c1d5c9cddd1c79357dfb49ea897"
+            },
+            "raw": {
+              "bytes": 80214,
+              "sha256": "4084a92d8a2324ed2cec29f5bbd0c835dc5c5c1d5c9cddd1c79357dfb49ea897"
+            }
+          },
+          "w2.wrn": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 6637,
+              "sha256": "4ccf037a7faa9d94276dc60ce077d3fd572558fc6e9afa0336053fd837122c83"
+            },
+            "raw": {
+              "bytes": 6637,
+              "sha256": "4ccf037a7faa9d94276dc60ce077d3fd572558fc6e9afa0336053fd837122c83"
+            }
+          }
+        }
+      },
+      "spokane": {
+        "evidence": {
+          "capture_sha256": "26814654d7802d574eaeef0b377d039faeb8597eb7b9bfda9f9fd65188a96ad7",
+          "description": "Accepted five-site invalid-only experiment / spokane",
+          "reference_executable_sha256": "61348af88003b33f708947867f77eb5adb89169916004f0843a483678e7c7a66"
+        },
+        "exit_code": 0,
+        "inputs": {
+          "bth1.csv": {
+            "bytes": 24478,
+            "sha256": "5f6c526251d7910a6cef5c81f1a5958e5102db825f90d2f9c0dcadefc994f3e2"
+          },
+          "cdt8.csv": {
+            "bytes": 829,
+            "sha256": "f779b2ea15c492e1145c885451e99b9f8e97c37419ae80678c2dcaf06fc1d422"
+          },
+          "cdt9.csv": {
+            "bytes": 829,
+            "sha256": "ce4cdc34b0b7f217230bfcd8d6b2784bafeb69c77cd453dbec37cc9fd98d8215"
+          },
+          "cin.csv": {
+            "bytes": 11649007,
+            "sha256": "ed73aced206401236787c2a34c92b8f671b5369df9d0b544f02a601815b95b1e"
+          },
+          "hangmanc.csv": {
+            "bytes": 4398,
+            "sha256": "8c8e9da762edc27ff6bc92e443d9e400354a001a179fd42c6726ba7acdcd567b"
+          },
+          "hangq01.csv": {
+            "bytes": 439339,
+            "sha256": "854de9b182ac131af2d439a8d176fca9f77e5d2ab5f20c22f30771881886cfa3"
+          },
+          "hangt01.csv": {
+            "bytes": 239,
+            "sha256": "98002d19380aafb5ad83b279f4754c0e882c6ff2aea8df8e604232a72cbed9c3"
+          },
+          "lpr.csv": {
+            "bytes": 4303,
+            "sha256": "50df7aa0877bd6fe7e35fcf461fd08c4d9896726dd2be894b28a7d4a52a82f4c"
+          },
+          "met.csv": {
+            "bytes": 310320,
+            "sha256": "2c6f03ab0f572ca145672bf77cf824fcdd6a15a32f06db7ac03147e2b8e8fbfa"
+          },
+          "qdt_br8.csv": {
+            "bytes": 4169,
+            "sha256": "4271cb6b31ae5ee5659fb4e2c8b0faff5b7868f56e2fdb5843258be13c09cb5f"
+          },
+          "qdt_br9.csv": {
+            "bytes": 3916,
+            "sha256": "d836953abf2c92aca70124176d916ec837a2bef88ea5a8be32a9b0660164dfe4"
+          },
+          "qin_br8.npt": {
+            "bytes": 545464,
+            "sha256": "7f227a43809f917ccc82765db611798753ca9508ff1c1c89d74ed829ada5231d"
+          },
+          "qtr_zero.npt": {
+            "bytes": 82,
+            "sha256": "58671388504bf8cd08cabbef0480c34326fe74fa7e653faea1feeed50fb47efe"
+          },
+          "shade.csv": {
+            "bytes": 6095,
+            "sha256": "32abce642c0d623b62df0d0e3455beb9302d0cd825f72a64bb2798e15be7ee10"
+          },
+          "spkwwtpq01.csv": {
+            "bytes": 4660,
+            "sha256": "16808ecbf0055d90298900da4e9cf3b7d46940f3676880bb7da0a34c93f00be3"
+          },
+          "spkwwtpt01.csv": {
+            "bytes": 4268,
+            "sha256": "ea3e4749cd97fa6e9462feee365d71ff5cecc0d6d445c02fc55a32c0067a8926"
+          },
+          "spokanewwtpc.csv": {
+            "bytes": 59021,
+            "sha256": "9e9dc888a67f36a70dc3271c86051522ed0d06919e54c0d8b87480e0ceb00813"
+          },
+          "tdt_br8.npt": {
+            "bytes": 199,
+            "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+          },
+          "tdt_br9.npt": {
+            "bytes": 199,
+            "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+          },
+          "tin_br8.csv": {
+            "bytes": 422453,
+            "sha256": "be39c179ffd5c4fbdb548013981f4204024c6152ca3275f14454b991285ff376"
+          },
+          "vpr.csv": {
+            "bytes": 309,
+            "sha256": "454c7d011cb86d7f9397914ea243ac9704957393ff0d944e03fa479fd1497127"
+          },
+          "w2_aerate.npt": {
+            "bytes": 377,
+            "sha256": "a27d567da9e94fefc837ee8fb951e708137f797a35c7127ec179571bba610d08"
+          },
+          "w2_con.csv": {
+            "bytes": 126731,
+            "sha256": "9ee1acf680e883aa8f342109fe137fb1432c668c0646076b30adab0f0036b41f"
+          },
+          "w2_envirprf.npt": {
+            "bytes": 2240,
+            "sha256": "4f26b59a95395c800ba776a3d6ce2c111a7a1800f5242bdf2ce7045951c0dbea"
+          },
+          "w2_habitat.npt": {
+            "bytes": 803,
+            "sha256": "3d49768986f7fbce71cfa17156678ac81ff7d40e5f05d03a9c7a9b2afc538b96"
+          },
+          "w2_selective.npt": {
+            "bytes": 3059,
+            "sha256": "40d9758cbcf0d806d5b085bd40c8c0ef2808d71289c1150f14a288fdd692a7cd"
+          },
+          "wsc.csv": {
+            "bytes": 402,
+            "sha256": "a99822d0d471374dac91ff6a9e43e16098eaa2dfc77c55949b249653008bf13e"
+          }
+        },
+        "outputs": {
+          "W2CodeCompilerVersion.opt": {
+            "excluded_counts": {
+              "compile_timestamp": 1
+            },
+            "normalized": {
+              "bytes": 209,
+              "sha256": "cce29b8a3200e1002c94ff4ee51bb8883fcf873307ce7c8d0b5186e4aa056ffb"
+            },
+            "raw": {
+              "bytes": 219,
+              "sha256": "9f667805f568edc21a95426ff19a75a817574961aaca7e67590293b528d965a6"
+            }
+          },
+          "cpl1.opt": {
+            "excluded_counts": {
+              "model_clock": 1
+            },
+            "normalized": {
+              "bytes": 21451840,
+              "sha256": "48ca235f0db45ae1af92b31083c1c01826d15665fdd2ceef39fbac9612d73853"
+            },
+            "raw": {
+              "bytes": 21451850,
+              "sha256": "0473d7bcf7e3eea17ca1c252ce82392e962fea1cbaa3f57b400c03cef8ff51c0"
+            }
+          },
+          "flowbal.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 344,
+              "sha256": "eb49d9b6e124584987a014899dfcd6e3d2dc4028caac4c8b202f114d23822672"
+            },
+            "raw": {
+              "bytes": 344,
+              "sha256": "eb49d9b6e124584987a014899dfcd6e3d2dc4028caac4c8b202f114d23822672"
+            }
+          },
+          "snp1.opt": {
+            "excluded_counts": {
+              "cpu_runtime": 1,
+              "model_clock": 226,
+              "termination_clock": 1
+            },
+            "normalized": {
+              "bytes": 2505296,
+              "sha256": "49c497a8ff0d4d1172807b744d92d8b7f4e554697fd08f51ec97760d6f67dc42"
+            },
+            "raw": {
+              "bytes": 2507559,
+              "sha256": "722cd9e70b59330d53edb265350296255a8168c3110f088832e6995d3d4be4e0"
+            }
+          },
+          "tsr_1_seg2.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "b7c484b16512901ca583a58cc0e82e25c8d7b9b8b795ecccea3658a52510d909"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "b7c484b16512901ca583a58cc0e82e25c8d7b9b8b795ecccea3658a52510d909"
+            }
+          },
+          "tsr_2_seg7.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "e4f55dfe16c5225cf3cded4737f073c767a81431de505c8f22ad82e0fd7de3a5"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "e4f55dfe16c5225cf3cded4737f073c767a81431de505c8f22ad82e0fd7de3a5"
+            }
+          },
+          "tsr_3_seg10.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "f11fc6afe1c7a3abc62b1e48284fe90a576fc800729cddd4de43a38ce688b69d"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "f11fc6afe1c7a3abc62b1e48284fe90a576fc800729cddd4de43a38ce688b69d"
+            }
+          },
+          "tsr_4_seg19.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "e1da44cca304140f13ae6c5c3c5813e41127b9d7b912c54031d4cc0c7cb1312d"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "e1da44cca304140f13ae6c5c3c5813e41127b9d7b912c54031d4cc0c7cb1312d"
+            }
+          },
+          "tsr_5_seg27.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "2d4dff5c6a2ce123fe58a9e251dab65440e67c932d84f6b1efdc76df240e6668"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "2d4dff5c6a2ce123fe58a9e251dab65440e67c932d84f6b1efdc76df240e6668"
+            }
+          },
+          "tsr_6_seg32.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "f0726ad7c1b040eb856fae3a612ec425ff8c7bc216bfc523a409f457b5ff1274"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "f0726ad7c1b040eb856fae3a612ec425ff8c7bc216bfc523a409f457b5ff1274"
+            }
+          },
+          "tsr_7_seg41.csv": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 146964,
+              "sha256": "028e524bf91a9a61d35d6bf15b1003d268362ff719332121b2ece6147b720e99"
+            },
+            "raw": {
+              "bytes": 146964,
+              "sha256": "028e524bf91a9a61d35d6bf15b1003d268362ff719332121b2ece6147b720e99"
+            }
+          },
+          "w2.wrn": {
+            "excluded_counts": {},
+            "normalized": {
+              "bytes": 992,
+              "sha256": "86904de2fa2813e3f2b80f2bf2a082758895349b89a0588f72dddfd3e2783fc2"
+            },
+            "raw": {
+              "bytes": 992,
+              "sha256": "86904de2fa2813e3f2b80f2bf2a082758895349b89a0588f72dddfd3e2783fc2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
