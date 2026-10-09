@@ -2,6 +2,15 @@
 
 This log describes the clean packaging snapshot and subsequent real changes. It is not reconstructed Git history.
 
+## Documentation evidence update — 2026-10-09
+
+- Recorded the independently reviewed Ubuntu 26.04 x86-64 VM reproduction of the published snapshot: both clean profiles, all six agreed regressions, 262 output records (242 raw-hash matches and 20 existing clock-only differences), 39 package tests and 22 handover tests. Strict Detroit remains the expected partial failure. This is a receipt-based exploratory result, not Ubuntu 24.04 qualification or vendor CPU-support approval.
+- Closed DeGray's former 77-file Windows coverage gap by collecting existing outputs. The complete census is 81 matching nonempty scientific/diagnostic files, one matching empty log and one expected compiler metadata difference, with zero missing or unexplained files under the existing newline/clock rules. No new Windows run was performed.
+- Completed Spokane's residual ledger: 9,410 subnormal-scale `9CBODP` contour differences and 100 snapshot balance/reporting differences. The corrected maximum percent discrepancy is approximately `1.1872750e-7` percentage points, including the unchanged writer's carry-forward into `10CBODP`. The older `4.5967667e-8` bound covered only 72 aligned tokens; 28 omitted-`E` lines are now accounted for.
+- No numerical source, FP policy, default profile, compiler/runtime pin, build recipe, input manifest, comparison tolerance or accepted output-control hash changed. Package `VERSION` stays `0.1.0-dev.20261009`; this update is identified by its genuine documentation commit. Application-owner acceptance, production promotion and Ubuntu 24.04 qualification remain open.
+
+The initial preparation entry below is retained as historical context; its then-limited Windows coverage is superseded by the dated evidence update above.
+
 ## 0.1.0-dev.20261009 — 2026-10-09
 
 ### Prepared

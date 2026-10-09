@@ -2,7 +2,7 @@
 
 This source-only package preserves the native Linux port and adds an explicit, separately selected Windows-comparison profile. **Strict remains the default.** The compatibility profile contains the five previously reviewed real-power calls plus invalid-exception-only masking. It is a review candidate, not a production or physical-accuracy endorsement.
 
-Development and controlled case runs were performed on Debian 13 x86-64. Ubuntu Server 24.04 x86-64 is the intended target and still requires on-target qualification. See [validation results](docs/VALIDATION_RESULTS.md), [validation policy](docs/VALIDATION_POLICY.md), [provenance](docs/PROVENANCE.md), and [notices](notices/README.md).
+Initial development and controlled package runs were performed on Debian 13 x86-64. A separate, reviewed six-run reproduction on an actual Ubuntu 26.04 x86-64 VM passed on 2026-10-09, using the unchanged source, compiler/runtime pins and profile-specific controls. This is an exploratory CPU result, not a vendor-support or production claim. Ubuntu Server 24.04 x86-64 remains the intended target and still requires its own on-target qualification. See [validation results](docs/VALIDATION_RESULTS.md), [validation policy](docs/VALIDATION_POLICY.md), [provenance](docs/PROVENANCE.md), and [notices](notices/README.md).
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ Development and controlled case runs were performed on Debian 13 x86-64. Ubuntu 
 - Original pinned Spokane, Detroit and DeGray example inputs for the documented case runner. Inputs and large outputs are not part of this repository. Each case manifest verifies every input byte before launch.
 - Space outside this source tree for builds and run evidence. Each DeGray run produces approximately 1 GB of output; keep at least several GB free when qualifying both profiles.
 
-Intel lists Ubuntu 24.04 in its [2026 compiler requirements](https://www.intel.com/content/www/us/en/developer/articles/release-notes/fortran-compiler/2026.html). That compiler support does not establish this package's target validation. Ubuntu's [glibc package](https://packages.ubuntu.com/noble/libc6) is in the 2.39 series; the preserved development binaries' GLIBC symbol requirements reached 2.34, a prerequisite check only.
+Intel lists Ubuntu 24.04 in its [2026 compiler requirements](https://www.intel.com/content/www/us/en/developer/articles/release-notes/fortran-compiler/2026.html). That compiler support does not establish this package's target validation. The same CPU OS table does not list Ubuntu 26.04; its separate client-GPU listing must not be used to claim CPU support. The recorded Ubuntu 26.04 reproduction remains explicitly exploratory. Ubuntu's [glibc package](https://packages.ubuntu.com/noble/libc6) is in the 2.39 series; the preserved development binaries' GLIBC symbol requirements reached 2.34, a prerequisite check only.
 
 ## Build without changing the default
 
@@ -55,11 +55,15 @@ The compatibility runner automatically creates the FP receipt path; no diagnosti
 
 The original strict Detroit case is expected to stop with floating-invalid error 65 before finishing. The wrapper reports native exit `-6` and returns shell status `134`; a separate strict validation pass means that known partial failure was reproduced, not that Detroit completed. Other nonzero native exits remain failures even if an FP receipt exists. A native success with invalid verification evidence returns a failing wrapper status.
 
-Validation compares every generated output against the selected pinned Linux reference, allowing only previously audited run/build clocks and CPU-duration fields. It introduces no floating tolerance or line-ending conversion. A pass on an actual Ubuntu 24.04 run would provide new target evidence; the development host's pass must not be relabeled as Ubuntu testing.
+Validation compares every generated output against the selected pinned Linux reference, allowing only previously audited run/build clocks and CPU-duration fields. It introduces no floating tolerance or line-ending conversion. The later Ubuntu 26.04 receipt review passed the same six profile/case controls; it is separate from the Debian preparation results and does not qualify Ubuntu 24.04. The VM's full raw outputs remain outside this repository; the review verified returned execution records and output hashes, not a new remote read of those outputs.
 
 ## Scope and remaining limits
 
-The accepted numerical experiment completed Detroit and matched all 36 official-original Windows scientific outputs. Spokane retained known tiny differences in the constituent named `9CBODP`; DeGray matched all four returned Windows scientific files, while 77 wider counterparts remain unavailable. Package qualification must reproduce that accepted Linux candidate before those observations are carried forward. See the current results record for completed gates.
+The candidate matches all 36 Detroit scientific Windows outputs under the recorded comparison rules. The DeGray coverage gap is now closed: all 81 nonempty scientific/diagnostic Windows outputs match, the empty diagnostic log matches, and the compiler report retains its expected metadata difference. These DeGray files were collected from the existing Windows run, not generated by a new run.
+
+Spokane remains an explicit residual case. The complete ledger contains 9,410 `9CBODP` contour differences, with maximum absolute difference `2.29246e-321 g/m^3`, and 100 snapshot balance/reporting differences. The corrected maximum percent-error difference is about `1.1872750e-7` percentage points; it also appears in `10CBODP` through the unchanged writer's percent-value carry-forward. The earlier smaller bound covered only 72 aligned tokens. No tolerance, FP change or reporting fix has been adopted. See [the complete results and acceptance limits](docs/VALIDATION_RESULTS.md).
+
+Application-owner acceptance of these bounded residuals and production/default promotion remain pending. Passing the selected output controls is not that acceptance decision.
 
 Invalid masking allows transient invalid results to continue. The observed Detroit path stored NaNs and then the same finite turbulence floors as Windows. Compatibility does not establish that the negative-radius state, retry restoration or physical policy is correct. No geometry repair or broader numerical change is included.
 

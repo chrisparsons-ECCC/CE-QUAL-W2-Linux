@@ -1,10 +1,16 @@
 # Version control and publication workflow
 
-## Current boundary
+## Initial preparation boundary (historical)
 
 This is a source-only candidate prepared on 2026-10-09. It is not an upstream CE-QUAL-W2 release or an Ubuntu-qualified binary distribution. Its source-only publication was approved for a new `linux-port` branch and draft pull request on 2026-10-09. The user-nominated destination is [chrisparsons-ECCC/CE-QUAL-W2-Linux](https://github.com/chrisparsons-ECCC/CE-QUAL-W2-Linux). Repository metadata checked during preparation identifies an existing public repository with default branch `v4.5`. Its existing history and files must be preserved. The intended account and access were verified separately. Confirm the final reviewed bytes and current base before executing that approved publication. A successful Git installation or an authenticated GitHub connector does not demonstrate shell Git push authentication or write permission for a particular repository.
 
 The package deliberately contains no `.git` directory. Do not import a previous workspace's Git objects, reflogs, raw vendor logs, compiler recovery archives or credentials. Treat this reviewed directory as a standalone export. For the approved publication, integrate it as a clearly scoped new subtree in the existing repository, preferably `linux-port/`, after checking that destination for conflicts. Do not initialize an unrelated repository and force it over the destination. Do not use `git add .` over an investigation workspace.
+
+## Published state and subsequent changes
+
+The initial candidate integration is published at commit `9c16db8e7697ffaa12f9678f15329fa0ce80d872` on `linux-port`, with [draft pull request #1](https://github.com/chrisparsons-ECCC/CE-QUAL-W2-Linux/pull/1) against `v4.5`. The preparation and initial-integration instructions above and below describe that preserved history and the safeguards for later work; they are not a claim that publication is still pending.
+
+Subsequent approved changes must use the verified current `linux-port` tip as their parent and preserve the existing files/history. Documentation corrections are genuine new commits, not rewrites of old test records. The dated evidence update records separate Ubuntu 26.04 reproduction, DeGray coverage closure and corrected Spokane bounds without changing source, tools, inputs, control hashes, FP settings, package `VERSION`, or the draft status. Application acceptance and any merge/default promotion remain separate decisions.
 
 ## Repository layout
 
