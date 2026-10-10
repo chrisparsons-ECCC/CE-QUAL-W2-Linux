@@ -1,0 +1,326 @@
+{
+  "format": "cequal-build-profiles-v1",
+  "default_profile": "strict",
+  "profiles": {
+    "strict": {
+      "source_manifest": "config/sources-strict.json",
+      "invalid_mask_helper": false,
+      "post_interface_recompile_units": []
+    },
+    "windows-compatible-invalid-only": {
+      "source_manifest": "config/sources-windows-compatible-invalid-only.json",
+      "invalid_mask_helper": true,
+      "post_interface_recompile_units": [
+        "temperature.F90"
+      ],
+      "post_interface_recompile_reason": "The accepted temperature object was compiled after the complete generated interface set existed. A clean 51-unit pass followed by the identical temperature compilation reproduces its entire object exactly; no source or option changes."
+    }
+  },
+  "common_flags": [
+    "-nologo",
+    "-O2",
+    "-recursive",
+    "-warn",
+    "declarations",
+    "-warn",
+    "interfaces",
+    "-real-size",
+    "64",
+    "-zero",
+    "-init=arrays",
+    "-fp-model=source",
+    "-traceback",
+    "-fpe0",
+    "-nofpp"
+  ],
+  "per_file_flags": {
+    "Diagenesis Sediment Model 03.f90": [
+      "-warn",
+      "nointerfaces"
+    ],
+    "preprocessor_definitions.fpp": [
+      "-fpp",
+      "-fixed"
+    ],
+    "init-cond.F90": [
+      "-O1"
+    ],
+    "init-u-elws.f90": [
+      "-O1"
+    ]
+  },
+  "compile_units": [
+    {
+      "source": "preprocessor_definitions.fpp",
+      "object": "unit-000.o"
+    },
+    {
+      "source": "w2modules.F90",
+      "object": "unit-001.o"
+    },
+    {
+      "source": "aerate.f90",
+      "object": "unit-002.o"
+    },
+    {
+      "source": "az.f90",
+      "object": "unit-003.o"
+    },
+    {
+      "source": "balances.F90",
+      "object": "unit-004.o"
+    },
+    {
+      "source": "date.f90",
+      "object": "unit-005.o"
+    },
+    {
+      "source": "density.f90",
+      "object": "unit-006.o"
+    },
+    {
+      "source": "Diagenesis FFT Layer 01.f90",
+      "object": "unit-007.o"
+    },
+    {
+      "source": "Diagenesis Input 02.f90",
+      "object": "unit-008.o"
+    },
+    {
+      "source": "Diagenesis Input Files Read 01.f90",
+      "object": "unit-009.o"
+    },
+    {
+      "source": "Diagenesis Sediment Flux Model 05.f90",
+      "object": "unit-010.o"
+    },
+    {
+      "source": "Diagenesis Bubbles Code 01.f90",
+      "object": "unit-011.o"
+    },
+    {
+      "source": "Diagenesis Output 02.f90",
+      "object": "unit-012.o"
+    },
+    {
+      "source": "Diagenesis Sediment Model 03.f90",
+      "object": "unit-013.o"
+    },
+    {
+      "source": "envir_perf.f90",
+      "object": "unit-014.o"
+    },
+    {
+      "source": "fishhabitat.f90",
+      "object": "unit-015.o"
+    },
+    {
+      "source": "gas-transfer.f90",
+      "object": "unit-016.o"
+    },
+    {
+      "source": "gate-spill-pipe.f90",
+      "object": "unit-017.o"
+    },
+    {
+      "source": "init-cond.F90",
+      "object": "unit-018.o"
+    },
+    {
+      "source": "init-geom.F90",
+      "object": "unit-019.o"
+    },
+    {
+      "source": "init-u-elws.f90",
+      "object": "unit-020.o"
+    },
+    {
+      "source": "init.F90",
+      "object": "unit-021.o"
+    },
+    {
+      "source": "layeraddsub.F90",
+      "object": "unit-022.o"
+    },
+    {
+      "source": "macrophyte-aux.f90",
+      "object": "unit-023.o"
+    },
+    {
+      "source": "MetFileRegion.f90",
+      "object": "unit-024.o"
+    },
+    {
+      "source": "heat-exchange.f90",
+      "object": "unit-025.o"
+    },
+    {
+      "source": "output.f90",
+      "object": "unit-026.o"
+    },
+    {
+      "source": "outputa2w2tools.F90",
+      "object": "unit-027.o"
+    },
+    {
+      "source": "outputinitw2tools.F90",
+      "object": "unit-028.o"
+    },
+    {
+      "source": "particle.f90",
+      "object": "unit-029.o"
+    },
+    {
+      "source": "Plunge_Point.f90",
+      "object": "unit-030.o"
+    },
+    {
+      "source": "ReduceReaerAlgae.f90",
+      "object": "unit-031.o"
+    },
+    {
+      "source": "restart.f90",
+      "object": "unit-032.o"
+    },
+    {
+      "source": "screen_output_intel.f90",
+      "object": "unit-033.o"
+    },
+    {
+      "source": "shading.f90",
+      "object": "unit-034.o"
+    },
+    {
+      "source": "systdg.f90",
+      "object": "unit-035.o"
+    },
+    {
+      "source": "endsimulation.F90",
+      "object": "unit-036.o"
+    },
+    {
+      "source": "hydroinout.F90",
+      "object": "unit-037.o"
+    },
+    {
+      "source": "input.F90",
+      "object": "unit-038.o"
+    },
+    {
+      "source": "tdg.f90",
+      "object": "unit-039.o"
+    },
+    {
+      "source": "TDGtarget.f90",
+      "object": "unit-040.o"
+    },
+    {
+      "source": "temperature.F90",
+      "object": "unit-041.o"
+    },
+    {
+      "source": "time-varying-data.f90",
+      "object": "unit-042.o"
+    },
+    {
+      "source": "transport.f90",
+      "object": "unit-043.o"
+    },
+    {
+      "source": "update.F90",
+      "object": "unit-044.o"
+    },
+    {
+      "source": "w2_4_win.f90",
+      "object": "unit-045.o"
+    },
+    {
+      "source": "water-quality.f90",
+      "object": "unit-046.o"
+    },
+    {
+      "source": "waterbody.f90",
+      "object": "unit-047.o"
+    },
+    {
+      "source": "withdrawal.f90",
+      "object": "unit-048.o"
+    },
+    {
+      "source": "wqconstituents.F90",
+      "object": "unit-049.o"
+    },
+    {
+      "source": "w2_cli.f90",
+      "object": "unit-050.o"
+    }
+  ],
+  "fortran_link_order": [
+    "unit-000.o",
+    "unit-001.o",
+    "unit-002.o",
+    "unit-003.o",
+    "unit-004.o",
+    "unit-005.o",
+    "unit-006.o",
+    "unit-007.o",
+    "unit-008.o",
+    "unit-009.o",
+    "unit-010.o",
+    "unit-011.o",
+    "unit-012.o",
+    "unit-013.o",
+    "unit-014.o",
+    "unit-015.o",
+    "unit-016.o",
+    "unit-017.o",
+    "unit-018.o",
+    "unit-019.o",
+    "unit-020.o",
+    "unit-021.o",
+    "unit-022.o",
+    "unit-023.o",
+    "unit-024.o",
+    "unit-025.o",
+    "unit-026.o",
+    "unit-027.o",
+    "unit-028.o",
+    "unit-029.o",
+    "unit-030.o",
+    "unit-031.o",
+    "unit-032.o",
+    "unit-033.o",
+    "unit-034.o",
+    "unit-035.o",
+    "unit-036.o",
+    "unit-037.o",
+    "unit-038.o",
+    "unit-039.o",
+    "unit-040.o",
+    "unit-041.o",
+    "unit-042.o",
+    "unit-043.o",
+    "unit-044.o",
+    "unit-045.o",
+    "unit-046.o",
+    "unit-047.o",
+    "unit-048.o",
+    "unit-049.o",
+    "unit-050.o"
+  ],
+  "cli_definition": "-DCLI_ONLY",
+  "helper": {
+    "source": "source/helper/w2_invalid_mask.c",
+    "sha256": "4bebb8c4a24ca6453572bb60336b98e216ed0519efd980f9255497bf35ef0895",
+    "object": "invalid-mask.o",
+    "flags": [
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-DW2_MASK_INVALID=1"
+    ]
+  },
+  "binary_reproducibility": "Not promised. Source contains __DATE__ and __TIME__ macros; build paths/toolchain/system libraries also affect binary bytes."
+}

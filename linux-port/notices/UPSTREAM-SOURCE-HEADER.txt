@@ -1,0 +1,44 @@
+!***********************************************************************************************************************************
+!**                                                                                                                               **
+!**                                                         CE-QUAL-W2                                                            **
+!**                                            A Two-dimensional, Laterally Averaged,                                             **
+!**                                             Hydrodynamic and Water Quality Model                                              **
+!**                                                            for                                                                **
+!**                                           Rivers, Lakes, Reservoirs, and Estuaries                                            **
+!**                                                                                                                               **
+!**                                                       Version 4.5.5                                                             **
+!**                                                                                                                               **
+!**                                                 Currently maintained by:                                                      **
+!**                                                        Scott A. Wells                                                         **
+!**                                       Department of Civil and Environmental Engineering                                       **
+!**                                                  Portland State University                                                    **
+!**                                                         PO Box 751                                                            **
+!**                                                 Portland, Oregon  97207-0751                                                  **
+!**                                                 phone number: (503) 725-4276                                                  **
+!**                                                 e-mail: wellss@pdx.edu                                                        **
+!**                                       Major contributors to this version include                                              ** 
+!**                                           Dr. Zhong Zhang <zz3@pdx.edu>, Portland State University                            **
+!**                                           Dr. Stewart Rounds, USGS                                                            **
+!**  Main contributors to CE-QUAL-W2 are shown in User Manual Part 1.                                                             **
+!**                                                                                                                               **
+!**                                                                                                                               **
+!***********************************************************************************************************************************
+
+!***********************************************************************************************************************************
+!**                                                                                                                               **
+!**                  The long arm of the lawyers has found its way into the water quality modeling arena, so:                     **
+!**                                                                                                                               **
+!**  This model was developed by the U.S. Army Engineer Waterways Experiment Station, Vicksburg, MS and is maintained by          **
+!**  Portland State University.  Portland State University and the US government and its components are not responsible           **
+!**  for any damages,including incidental or consequential damages, arising                                                       **
+!**  from use or misuse of this model, or from results achieved or conclusions drawn by others.  Distribution of this model is    **
+!**  restricted by the Export Administration Act of 1969,  50 app. USC subsections 2401-2420, as amended, and other applicable    **
+!**  laws or regulations.                                            
+!
+!MIT License Copyright (c) 2023 drswells
+!Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+!The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+!THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+!OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                                             **
+!**                                                                                                                               **
+!***********************************************************************************************************************************

@@ -1,0 +1,3 @@
+# Preserve every reviewed raw byte, including mixed CRLF/LF source files.
+# No automatic newline, filter, or ident transformations on add/checkout.
+* -text -filter -ident

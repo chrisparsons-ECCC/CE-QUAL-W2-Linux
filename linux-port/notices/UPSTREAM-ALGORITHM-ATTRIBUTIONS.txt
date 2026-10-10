@@ -1,0 +1,23 @@
+Preserved upstream algorithm attributions from particle.f90. These are attributions, not an independent license review. Retain original comments in source.
+
+particle.f90:844-848
+      SUBROUTINE RANDOM(SEED,RNDX)             ! Random Number Generator Subroutine
+      IMPLICIT NONE                            !   obtained from "STRUCTURED FORTRAN
+                                               !   77 for Engineers and Scientists, 5th
+      INTEGER   SEED                           !   Edition - Author: Delores M. Etter"
+      REAL      RNDX                           !   The random # is between 0.0 and 1.0
+
+particle.f90:1350-1351
+! Begin Bilinear Spline Interpolation Algorithm (Algorithm obtained from "TWO DIMENSIONAL SPLINE INTERPOLATION
+!                                                ALGORITHMS - Author: Helmuth Spath")
+
+particle.f90:1601-1602
+! Begin Newton Interpolating Polynomial Algorithm(Algorithm obtained from "NUMERICAL METHODS for Engineers -
+!                                                 Authors: Steven Chapra & Raymond Canale")
+
+particle.f90:1825-1828
+      SUBROUTINE SPLINE             ! Bilinear Spline Algorithm obtained from
+                                    !   "TWO DIMENSIONAL SPLINE INTERPOLATION
+      Use FISHY
+      USE GLOBAL                             !    ALGORITHMS - Author: Helmuth Spath"
+

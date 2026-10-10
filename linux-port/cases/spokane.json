@@ -1,0 +1,194 @@
+{
+  "schema": 1,
+  "case_id": "spokane",
+  "release_example_directory": "Spokane River",
+  "provenance": "User-approved uploaded 4.5.5 bundle; complete archive SHA-256 fef68d3cd4dc4160b7fcc910b04aa8fc07c8ab511d84e8305b12e51ae4e9058a",
+  "input_policy": "Explicit reviewed allowlist, originals unchanged. Filename case aliases rename only in staged copy and retain identical bytes. No output controls or simulation dates changed.",
+  "configured_start_jday": "200",
+  "configured_end_jday": "210",
+  "year": 2001,
+  "grid": {
+    "IMX": 42,
+    "KMX": 47
+  },
+  "inputs": [
+    {
+      "source": "SPKwwtpQ01.csv",
+      "staged": "spkwwtpq01.csv",
+      "bytes": 4660,
+      "sha256": "16808ecbf0055d90298900da4e9cf3b7d46940f3676880bb7da0a34c93f00be3"
+    },
+    {
+      "source": "SPKwwtpT01.csv",
+      "staged": "spkwwtpt01.csv",
+      "bytes": 4268,
+      "sha256": "ea3e4749cd97fa6e9462feee365d71ff5cecc0d6d445c02fc55a32c0067a8926"
+    },
+    {
+      "source": "bth1.csv",
+      "staged": "bth1.csv",
+      "bytes": 24478,
+      "sha256": "5f6c526251d7910a6cef5c81f1a5958e5102db825f90d2f9c0dcadefc994f3e2"
+    },
+    {
+      "source": "cdt8.csv",
+      "staged": "cdt8.csv",
+      "bytes": 829,
+      "sha256": "f779b2ea15c492e1145c885451e99b9f8e97c37419ae80678c2dcaf06fc1d422"
+    },
+    {
+      "source": "cdt9.csv",
+      "staged": "cdt9.csv",
+      "bytes": 829,
+      "sha256": "ce4cdc34b0b7f217230bfcd8d6b2784bafeb69c77cd453dbec37cc9fd98d8215"
+    },
+    {
+      "source": "cin.csv",
+      "staged": "cin.csv",
+      "bytes": 11649007,
+      "sha256": "ed73aced206401236787c2a34c92b8f671b5369df9d0b544f02a601815b95b1e"
+    },
+    {
+      "source": "hangT01.csv",
+      "staged": "hangt01.csv",
+      "bytes": 239,
+      "sha256": "98002d19380aafb5ad83b279f4754c0e882c6ff2aea8df8e604232a72cbed9c3"
+    },
+    {
+      "source": "hangmanc.csv",
+      "staged": "hangmanc.csv",
+      "bytes": 4398,
+      "sha256": "8c8e9da762edc27ff6bc92e443d9e400354a001a179fd42c6726ba7acdcd567b"
+    },
+    {
+      "source": "hangq01.csv",
+      "staged": "hangq01.csv",
+      "bytes": 439339,
+      "sha256": "854de9b182ac131af2d439a8d176fca9f77e5d2ab5f20c22f30771881886cfa3"
+    },
+    {
+      "source": "lpr.csv",
+      "staged": "lpr.csv",
+      "bytes": 4303,
+      "sha256": "50df7aa0877bd6fe7e35fcf461fd08c4d9896726dd2be894b28a7d4a52a82f4c"
+    },
+    {
+      "source": "met.csv",
+      "staged": "met.csv",
+      "bytes": 310320,
+      "sha256": "2c6f03ab0f572ca145672bf77cf824fcdd6a15a32f06db7ac03147e2b8e8fbfa"
+    },
+    {
+      "source": "qdt_br8.csv",
+      "staged": "qdt_br8.csv",
+      "bytes": 4169,
+      "sha256": "4271cb6b31ae5ee5659fb4e2c8b0faff5b7868f56e2fdb5843258be13c09cb5f"
+    },
+    {
+      "source": "qdt_br9.csv",
+      "staged": "qdt_br9.csv",
+      "bytes": 3916,
+      "sha256": "d836953abf2c92aca70124176d916ec837a2bef88ea5a8be32a9b0660164dfe4"
+    },
+    {
+      "source": "qin_br8.npt",
+      "staged": "qin_br8.npt",
+      "bytes": 545464,
+      "sha256": "7f227a43809f917ccc82765db611798753ca9508ff1c1c89d74ed829ada5231d"
+    },
+    {
+      "source": "qtr_zero.npt",
+      "staged": "qtr_zero.npt",
+      "bytes": 82,
+      "sha256": "58671388504bf8cd08cabbef0480c34326fe74fa7e653faea1feeed50fb47efe"
+    },
+    {
+      "source": "shade.csv",
+      "staged": "shade.csv",
+      "bytes": 6095,
+      "sha256": "32abce642c0d623b62df0d0e3455beb9302d0cd825f72a64bb2798e15be7ee10"
+    },
+    {
+      "source": "spokanewwtpc.csv",
+      "staged": "spokanewwtpc.csv",
+      "bytes": 59021,
+      "sha256": "9e9dc888a67f36a70dc3271c86051522ed0d06919e54c0d8b87480e0ceb00813"
+    },
+    {
+      "source": "tdt_br8.npt",
+      "staged": "tdt_br8.npt",
+      "bytes": 199,
+      "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+    },
+    {
+      "source": "tdt_br9.npt",
+      "staged": "tdt_br9.npt",
+      "bytes": 199,
+      "sha256": "5629584981f4ac0b8bf3c47cca3a0ed61a725e53a33bdd80bee3a45010fbe80b"
+    },
+    {
+      "source": "tin_br8.csv",
+      "staged": "tin_br8.csv",
+      "bytes": 422453,
+      "sha256": "be39c179ffd5c4fbdb548013981f4204024c6152ca3275f14454b991285ff376"
+    },
+    {
+      "source": "vpr.csv",
+      "staged": "vpr.csv",
+      "bytes": 309,
+      "sha256": "454c7d011cb86d7f9397914ea243ac9704957393ff0d944e03fa479fd1497127"
+    },
+    {
+      "source": "w2_aerate.npt",
+      "staged": "w2_aerate.npt",
+      "bytes": 377,
+      "sha256": "a27d567da9e94fefc837ee8fb951e708137f797a35c7127ec179571bba610d08"
+    },
+    {
+      "source": "w2_con.csv",
+      "staged": "w2_con.csv",
+      "bytes": 126731,
+      "sha256": "9ee1acf680e883aa8f342109fe137fb1432c668c0646076b30adab0f0036b41f"
+    },
+    {
+      "source": "w2_envirprf.npt",
+      "staged": "w2_envirprf.npt",
+      "bytes": 2240,
+      "sha256": "4f26b59a95395c800ba776a3d6ce2c111a7a1800f5242bdf2ce7045951c0dbea"
+    },
+    {
+      "source": "w2_habitat.npt",
+      "staged": "w2_habitat.npt",
+      "bytes": 803,
+      "sha256": "3d49768986f7fbce71cfa17156678ac81ff7d40e5f05d03a9c7a9b2afc538b96"
+    },
+    {
+      "source": "w2_selective.npt",
+      "staged": "w2_selective.npt",
+      "bytes": 3059,
+      "sha256": "40d9758cbcf0d806d5b085bd40c8c0ef2808d71289c1150f14a288fdd692a7cd"
+    },
+    {
+      "source": "wsc.csv",
+      "staged": "wsc.csv",
+      "bytes": 402,
+      "sha256": "a99822d0d471374dac91ff6a9e43e16098eaa2dfc77c55949b249653008bf13e"
+    }
+  ],
+  "parsed_outputs": {
+    "tsr_1_seg2.csv": "tsr",
+    "tsr_2_seg7.csv": "tsr",
+    "tsr_3_seg10.csv": "tsr",
+    "tsr_4_seg19.csv": "tsr",
+    "tsr_5_seg27.csv": "tsr",
+    "tsr_6_seg32.csv": "tsr",
+    "tsr_7_seg41.csv": "tsr",
+    "flowbal.csv": "flowbal"
+  },
+  "coverage_notes": [
+    "TSR variables and flowbal only initially. Other files are inventoried/hashes compared but are not numerically parsed.",
+    "TSR DLT(s) is sampled at output times, not every internal timestep.",
+    "Configured start/end are evidence from controls, not completion evidence.",
+    "DeGray broader diagenesis, N/P balance, and profile outputs require additional reviewed parsers."
+  ]
+}

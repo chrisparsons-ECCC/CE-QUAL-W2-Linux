@@ -1,0 +1,66 @@
+name: Linux tooling (synthetic only)
+
+on:
+  pull_request:
+    branches: [v4.5, linux-port]
+    paths: ['linux-port/**', '.github/workflows/linux-tooling.yml']
+  push:
+    branches: [linux-port, 'tooling/**']
+    paths: ['linux-port/**', '.github/workflows/linux-tooling.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: linux-tooling-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  synthetic:
+    name: Synthetic tests / Python ${{ matrix.python }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ['3.11', '3.14']
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONOPTIMIZE: ''
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # reviewed v4 ref
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+          lfs: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # reviewed v5 ref
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Guard frozen numerical and regression boundary
+        shell: bash
+        run: |
+          git diff --exit-code 5814786ef46b68e2bd735082a4b1b8d5c2ab778f HEAD -- \
+            linux-port/source linux-port/cases linux-port/VERSION \
+            linux-port/config/accepted-output-controls.json \
+            linux-port/config/build-profiles.json \
+            linux-port/config/sources-strict.json \
+            linux-port/config/sources-windows-compatible-invalid-only.json \
+            linux-port/config/toolchain-lock.json \
+            linux-port/tools/build.py linux-port/tools/run.py \
+            linux-port/tools/validate.py linux-port/tools/verify_fp_receipt.py \
+            linux-port/tools/support \
+            linux-port/tests/test_binary_inspection.py \
+            linux-port/tests/test_publication_preflight.py \
+            linux-port/tests/test_run_wrapper.py linux-port/tests/test_validation.py
+      - name: Existing and new synthetic tests (no solver or compiler)
+        working-directory: linux-port
+        run: python -m unittest discover -s tests -v
+      - name: Bounded publication-content preflight
+        working-directory: linux-port
+        run: python tools/publication_preflight.py --root . --git-index --repo-root ..
+      - name: CLI import and help smoke tests
+        working-directory: linux-port
+        run: |
+          python tools/run_case.py --help
+          python tools/ensemble.py --help

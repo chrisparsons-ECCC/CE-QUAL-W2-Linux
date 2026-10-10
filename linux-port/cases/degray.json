@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "case_id": "degray",
+  "release_example_directory": "DeGray Reservoir with sediment diagenesis and vertical algae migration",
+  "provenance": "User-approved uploaded 4.5.5 bundle; complete archive SHA-256 fef68d3cd4dc4160b7fcc910b04aa8fc07c8ab511d84e8305b12e51ae4e9058a",
+  "input_policy": "Explicit reviewed allowlist, originals unchanged. Filename case aliases rename only in staged copy and retain identical bytes. No output controls or simulation dates changed.",
+  "configured_start_jday": "64.5",
+  "configured_end_jday": "358.700000000001",
+  "year": 1980,
+  "grid": {
+    "IMX": 32,
+    "KMX": 36
+  },
+  "inputs": [
+    {
+      "source": "atm_deposition_wb1.csv",
+      "staged": "atm_deposition_wb1.csv",
+      "bytes": 198,
+      "sha256": "1229cb65429297db2e359b4eee71a7065a690ecbb3842d156fbc1b32c2c50bae"
+    },
+    {
+      "source": "bth1.csv",
+      "staged": "bth1.csv",
+      "bytes": 14792,
+      "sha256": "0eb99112007ecb44014ff17da1738c9e50e5853e9b1a24f291f88673615d6a15"
+    },
+    {
+      "source": "cin_br1.csv",
+      "staged": "cin_br1.csv",
+      "bytes": 3362,
+      "sha256": "f476d1f511275b04a85c08d9a4ce35a1a4d4d8dccd8fdd9fff3979e80bb95824"
+    },
+    {
+      "source": "dynpump1.npt",
+      "staged": "dynpump1.npt",
+      "bytes": 281,
+      "sha256": "75177486064d4a1094fd03d6763dee4605c43c066e78484321f5642077b8ae0a"
+    },
+    {
+      "source": "dynselective1.npt",
+      "staged": "dynselective1.npt",
+      "bytes": 196,
+      "sha256": "723ebecf1dcd51ff70d46c57bf950d576bdc7d3c2237f08cab7f7bd59c2cc18a"
+    },
+    {
+      "source": "met.csv",
+      "staged": "met.csv",
+      "bytes": 79259,
+      "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+    },
+    {
+      "source": "met2.csv",
+      "staged": "met2.csv",
+      "bytes": 79259,
+      "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+    },
+    {
+      "source": "met3.csv",
+      "staged": "met3.csv",
+      "bytes": 79259,
+      "sha256": "e73502ed095b79117d827599a825e72e5b8eb0a97063396f55e961560240b6f0"
+    },
+    {
+      "source": "prf_dam.npt",
+      "staged": "prf_dam.npt",
+      "bytes": 119211,
+      "sha256": "6c637170683d49ff07c82fd509780dbbed76c9b73381e4148544eaa675f85491"
+    },
+    {
+      "source": "qgt.npt",
+      "staged": "qgt.npt",
+      "bytes": 48,
+      "sha256": "027e078d2fa4889e5d7c5520645fc60eb095fcbf0fe4ad5bb4db1ea594ccb4df"
+    },
+    {
+      "source": "qin_br1.npt",
+      "staged": "qin_br1.npt",
+      "bytes": 5831,
+      "sha256": "090bdef558df24475986f4131c0d8be18bb05921b08562025883400bc5102d04"
+    },
+    {
+      "source": "qin_br1_equal.npt",
+      "staged": "qin_br1_equal.npt",
+      "bytes": 143,
+      "sha256": "d9e81706c488fa822a1dbac245297fde5077607b566714ad8004f5585bab197f"
+    },
+    {
+      "source": "qot_br1.npt",
+      "staged": "qot_br1.npt",
+      "bytes": 6677,
+      "sha256": "55606ec4d08d8fbbc4e13f8f44cda04b104badfb0db9dc95f5c1ecfdf40b3017"
+    },
+    {
+      "source": "qot_br1_equal.npt",
+      "staged": "qot_br1_equal.npt",
+      "bytes": 143,
+      "sha256": "b072b4aaef3872fa6e35e957a023840d11ec292c69a4f80ec0e7b0be54e2a521"
+    },
+    {
+      "source": "shade.npt",
+      "staged": "shade.npt",
+      "bytes": 934,
+      "sha256": "3305585f22362bd730c50b5077127b49cc31e16b983180f106c67ab29edfbdf7"
+    },
+    {
+      "source": "tin_br1.npt",
+      "staged": "tin_br1.npt",
+      "bytes": 6677,
+      "sha256": "d0573c5afd828fdaee13acb57d07fe4475427a609a2533eb6c4881a09b613ccd"
+    },
+    {
+      "source": "vpr.npt",
+      "staged": "vpr.npt",
+      "bytes": 1131,
+      "sha256": "965c6da6330301c50af339f461d2ebbb647de1332f7b46e7fd1fdff4244bcc20"
+    },
+    {
+      "source": "w2_AlgaeMigration.csv",
+      "staged": "w2_AlgaeMigration.csv",
+      "bytes": 6385,
+      "sha256": "2acbbaa602850ae7047bd7828a3b624ec0c89b4395323b541623a3ebcc7f0465"
+    },
+    {
+      "source": "w2_Algae_Toxin.csv",
+      "staged": "w2_Algae_Toxin.csv",
+      "bytes": 382,
+      "sha256": "6a5dba55dfa81efddb10cdcf0be8c0c933085119c08397489fdeb2a091ac5d1a"
+    },
+    {
+      "source": "w2_TDGtarget.csv",
+      "staged": "w2_TDGtarget.csv",
+      "bytes": 1556,
+      "sha256": "946e61e51f733883a1b39be2fcafc61cbc7e7bccfdb9ce6f800cbf075ffc571b"
+    },
+    {
+      "source": "w2_aerate.npt",
+      "staged": "W2_AERATE.NPT",
+      "bytes": 351,
+      "sha256": "fadc12033d047bf29c86e15017d755c37ce5dab785a25c3f953086112e585a40"
+    },
+    {
+      "source": "w2_con.csv",
+      "staged": "w2_con.csv",
+      "bytes": 113066,
+      "sha256": "98be682f17eb6140a2df46acb102d48fc064d05239475f116b02cd6d5cad98b4"
+    },
+    {
+      "source": "w2_diagenesis.npt",
+      "staged": "W2_diagenesis.npt",
+      "bytes": 9008,
+      "sha256": "fef93bd43a9b7edd93f0e201788e34f07c66460e23836fcfb7a3e477824a57aa"
+    },
+    {
+      "source": "w2_envirprf.npt",
+      "staged": "w2_envirprf.npt",
+      "bytes": 2222,
+      "sha256": "831399ca7136b38b13eb5e255e752f24b6efbe40cc2d464030d34172a4128b5d"
+    },
+    {
+      "source": "w2_habitat.npt",
+      "staged": "w2_habitat.npt",
+      "bytes": 968,
+      "sha256": "7a0259da353e391fb59b2a8f70cab6604d73f53dfe43ac3993759b529c966fbf"
+    },
+    {
+      "source": "w2_lake_river_contour.csv",
+      "staged": "w2_lake_river_contour.csv",
+      "bytes": 418,
+      "sha256": "0b243b542e8b48b0106496f5fefab12e7e4b17ccf5cf4de2656ff2899407b8bc"
+    },
+    {
+      "source": "w2_multiple_WB.npt",
+      "staged": "w2_multiple_WB.npt",
+      "bytes": 446,
+      "sha256": "241d101cab30f7070c937cc973c8dd0439dada6576c5552e4e0008c176fa1c62"
+    },
+    {
+      "source": "w2_selective.npt",
+      "staged": "w2_selective.npt",
+      "bytes": 1494,
+      "sha256": "fd5b76386f9384b8e637935c0869a929a6919bb60596f54aa1b5bf9af852de31"
+    },
+    {
+      "source": "w2_systdg.npt",
+      "staged": "w2_systdg.npt",
+      "bytes": 1359,
+      "sha256": "5ada43c1be8209d59c0a85e3674e0a1f7ae95bb62721dbb3f5ca228636531fd4"
+    },
+    {
+      "source": "w2_tecplotbr.csv",
+      "staged": "w2_tecplotbr.csv",
+      "bytes": 213,
+      "sha256": "cc8c5a02762f0c85ddbbf34a22872a5700cb873f3902b67dbf4ce659bf4ffb9a"
+    },
+    {
+      "source": "wsc.npt",
+      "staged": "wsc.npt",
+      "bytes": 705,
+      "sha256": "b7fef70bbc9058aa93cd0f73df8bb833f77396a0dd3f6f702863b8d71a800dd3"
+    }
+  ],
+  "parsed_outputs": {
+    "tsr_1_seg31.csv": "tsr",
+    "flowbal.csv": "flowbal"
+  },
+  "coverage_notes": [
+    "TSR variables and flowbal only initially. Other files are inventoried/hashes compared but are not numerically parsed.",
+    "TSR DLT(s) is sampled at output times, not every internal timestep.",
+    "Configured start/end are evidence from controls, not completion evidence.",
+    "DeGray broader diagenesis, N/P balance, and profile outputs require additional reviewed parsers.",
+    "Staged filename W2_diagenesis.npt matches hardcoded OPEN in Diagenesis Input 02.f90:41; original lowercase filename and bytes are preserved in source. The input output-directory value .\\SedimentDiagenesis is unchanged.",
+    "Staged filename W2_AERATE.NPT matches hardcoded OPEN in aerate.f90:24; original lowercase filename and bytes are preserved. Discovered by recorded baseline init failure, then confirmed by literal FILE= scan of all Fortran sources."
+  ]
+}
