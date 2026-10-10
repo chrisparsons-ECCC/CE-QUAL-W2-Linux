@@ -69,6 +69,10 @@ Invalid masking allows transient invalid results to continue. The observed Detro
 
 The runner currently qualifies the three hash-pinned example cases. General case migration, live coupled COPY behavior, arbitrary Windows path conventions and production deployment are separate work. The original Linux boundary port rejects unsupported live COPY paths clearly.
 
+## Experimental general-case and ensemble launchers
+
+For already Linux-ready, self-contained cases, see [the general-case and ensemble workflow](docs/ENSEMBLE_WORKFLOW.md). The additive launchers require an explicit reviewed profile and preserve the existing build/FP gates. They support fresh attempts, bounded concurrency, timeout/cancellation and hash-checked resume; execution success does not establish scientific acceptance. Their current evidence is synthetic testing only. Native serial and concurrent real-model checks on the Ubuntu 26.04 execution system remain pending. The unchanged `tools/run.py` remains the three-case qualification harness.
+
 ## Review and version control
 
 Run synthetic launcher/validator/publication tests without running the model:

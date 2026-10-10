@@ -2,6 +2,13 @@
 
 This log describes the clean packaging snapshot and subsequent real changes. It is not reconstructed Git history.
 
+## Experimental tooling update — 2026-10-10
+
+- Added explicit-profile general-case and ensemble launchers for trusted, already Linux-ready cases, plus an exec shim, workflow guide and synthetic tests. Added read-only GitHub Actions tooling checks for Python 3.11/3.14; these are not solver qualification runs.
+- Review hardening preserves the excluded vendor-log boundary, rejects nonregular JSON and unsafe parent-path tokens, rechecks build/input identities around execution, records bounded actual-runtime observations, and requires complete receipts before resume. Cancellation and failed-attempt evidence remain explicit.
+- Source, FP policy, defaults, compiler/runtime locks, numerical controls, original regression harness/tests and package `VERSION` are unchanged. The publication allowlist adds only the five new package files.
+- Local aggregate synthetic tests pass on Python 3.12.14. New-launcher native serial/concurrent model checks remain pending; prior three-case model qualification is carried forward only for the unchanged harness. No production promotion or model rerun is part of this integration.
+
 ## Documentation evidence update — 2026-10-09
 
 - Recorded the independently reviewed Ubuntu 26.04 x86-64 VM reproduction of the published snapshot: both clean profiles, all six agreed regressions, 262 output records (242 raw-hash matches and 20 existing clock-only differences), 39 package tests and 22 handover tests. Strict Detroit remains the expected partial failure. This is a receipt-based exploratory result, not Ubuntu 24.04 qualification or vendor CPU-support approval.
